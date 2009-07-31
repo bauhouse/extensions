@@ -268,3 +268,54 @@
 [submodule "eventex"]
 	path = eventex
 	url = git://github.com/yourheropaul/eventex.git
+[submodule "xml_selectbox"]
+	path = xml_selectbox
+	url = git://github.com/tonyarnold/xml_selectbox.git
+[submodule "additional_page_types"]
+	path = additional_page_types
+	url = git://github.com/makenosound/additional_page_types.git
+[submodule "advancedtaglist"]
+	path = advancedtaglist
+	url = git://github.com/pointybeard/advancedtaglist.git
+[submodule "advanceduploadfield"]
+	path = advanceduploadfield
+	url = git://github.com/rowan-lewis/advanceduploadfield.git
+[submodule "curlinputfield"]
+	path = curlinputfield
+	url = git://github.com/rowan-lewis/curlinputfield.git
+[submodule "datasource_cache"]
+	path = datasource_cache
+	url = git://github.com/nickdunn/datasource_cache.git
+[submodule "datetaglistfield"]
+	path = datetaglistfield
+	url = git://github.com/rowan-lewis/datetaglistfield.git
+[submodule "importmanager"]
+	path = importmanager
+	url = git://github.com/rowan-lewis/importmanager.git
+[submodule "improvedpageresolve"]
+	path = improvedpageresolve
+	url = git://github.com/ahwayakchih/improvedpageresolve.git
+[submodule "incrementnumberfield"]
+	path = incrementnumberfield
+	url = git://github.com/nickdunn/incrementnumberfield.git
+[submodule "jquery_date_picker"]
+	path = jquery_date_picker
+	url = git://github.com/makenosound/jquery_date_picker.git
+[submodule "nested_cats"]
+	path = nested_cats
+	url = git://github.com/andrrr/nested_cats.git
+[submodule "selectboxfilter"]
+	path = selectboxfilter
+	url = git://github.com/rowan-lewis/selectboxfilter.git
+[submodule "seomanager"]
+	path = seomanager
+	url = git://github.com/rowan-lewis/seomanager.git
+[submodule "subsectionfield"]
+	path = subsectionfield
+	url = git://github.com/rowan-lewis/subsectionfield.git
+[submodule "translationmanager"]
+	path = translationmanager
+	url = git://github.com/ahwayakchih/translationmanager.git
+[submodule "widgeditor"]
+	path = widgeditor
+	url = git://github.com/makenosound/widgeditor.git
