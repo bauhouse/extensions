@@ -8,9 +8,9 @@ To keep your collection up-to-date, just update the submodules.
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 31 July 2009, there are 101 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 31 July 2009, there are 102 extensions in the Unofficial Symphony CMS Extensions Library.
 
-## Extensions
+## Symphony CMS Extensions
 
 <table>
 	<thead>
@@ -223,13 +223,13 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
-				<a href="http://github.com/nilshoerrmann/german/">Deutsche †bersetzung</a>
+				<a href="http://github.com/nilshoerrmann/german/">Deutsche Ubersetzung</a>
 			</td>
 			<td></td>
 			<td>1.0</td>
 			<td>2009-01-23</td>
 			<td>
-				<a href="http://nilshoerrmann.de">Nils Hšrrmann</a>
+				<a href="http://nilshoerrmann.de">Nils Hoerrmann</a>
 			</td>
 		</tr>
 		<tr>
@@ -425,7 +425,7 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>1.1.3</td>
 			<td>2009-03-13</td>
 			<td>
-				<a href="http://www.nilshoerrmann.de">Nils Hšrrmann</a>
+				<a href="http://www.nilshoerrmann.de">Nils Hoerrmann</a>
 			</td>
 		</tr>
 		<tr>
@@ -1126,7 +1126,9 @@ That should make things easier. If you create or discover any more, just fork, a
 	</tbody>
 </table>
 
+## Symphony CMS Extensions by Name
 
+A listing of all the Symphony CMS Extensions by name
 
 * Activity Log | [github](http://github.com/rowan-lewis/activitylog/) | git://github.com/rowan-lewis/activitylog.git
 * Additional Page Types | [github](http://github.com/makenosound/additional_page_types/) | git://github.com/makenosound/additional_page_types.git
@@ -1238,7 +1240,7 @@ That should make things easier. If you create or discover any more, just fork, a
 * Yahoo! Search BOSS | [github](http://github.com/ahwayakchih/ysboss/) | git://github.com/ahwayakchih/ysboss.git
 
 
-## Git Submodules
+## Symphony CMS Extensions as Git Submodules by Author
 
 Following is the list of Git submodule commands used to build this library:
 
