@@ -1187,7 +1187,6 @@ A listing of all the Symphony CMS Extensions by name
 * [Maintenance Mode](http://github.com/pointybeard/maintenance_mode/) | git://github.com/pointybeard/maintenance_mode.git
 * [Map Location Field](http://github.com/pointybeard/maplocationfield/) | git://github.com/pointybeard/maplocationfield.git
 * [Markdown and SmartyPants Text Formatter](http://github.com/pointybeard/markdown/) | git://github.com/pointybeard/markdown.git
-* [Markdown Labels](http://github.com/michael-e/markdown_labels/) | git://github.com/michael-e/markdown_labels.git
 * [markItUp!](http://github.com/ahwayakchih/markitup/) | git://github.com/ahwayakchih/markitup.git
 * [Mass Upload Utility](http://github.com/scottkf/mass-upload-utility/) | git://github.com/scottkf/mass-upload-utility.git
 * [Mediathek](http://github.com/nilshoerrmann/mediathek/) | git://github.com/nilshoerrmann/mediathek.git
@@ -1246,12 +1245,13 @@ Following is the list of Git submodule commands used to build this library:
 
 	git submodule add git://github.com/ahwayakchih/filterfield.git filterfield
 	git submodule add git://github.com/ahwayakchih/gcse.git gcse
-	git submodule add git://github.com/ahwayakchih/languagefield.git languagefield
 	git submodule add git://github.com/ahwayakchih/improvedpageresolve.git improvedpageresolve
+	git submodule add git://github.com/ahwayakchih/languagefield.git languagefield
 	git submodule add git://github.com/ahwayakchih/markitup.git markitup
 	git submodule add git://github.com/ahwayakchih/templatedtextformatters.git templatedtextformatters
 	git submodule add git://github.com/ahwayakchih/translationmanager.git translationmanager
 	git submodule add git://github.com/ahwayakchih/ysboss.git ysboss
+	git submodule add git://github.com/andrrr/nested_cats.git nested_cats
 	git submodule add git://github.com/ashooner/Downloadable-Page-Type.git Downloadable-Page-Type
 	git submodule add git://github.com/carsten/collapse_sectionfields.git collapse_sectionfields
 	git submodule add git://github.com/carsten/globalparamloader.git globalparamloader
@@ -1278,6 +1278,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/nickdunn/entity_diagram.git entity_diagram
 	git submodule add git://github.com/nickdunn/firebug_profiler.git firebug_profiler
 	git submodule add git://github.com/nickdunn/gravatar.git gravatar
+	git submodule add git://github.com/nickdunn/incrementnumberfield.git incrementnumberfield
 	git submodule add git://github.com/nickdunn/order_entries.git order_entries
 	git submodule add git://github.com/nickdunn/pingomatic.git pingomatic
 	git submodule add git://github.com/nickdunn/publishfiltering.git publishfiltering
@@ -1323,6 +1324,8 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/rowan-lewis/calendaroverlay.git calendaroverlay
 	git submodule add git://github.com/rowan-lewis/canofspam.git canofspam
 	git submodule add git://github.com/rowan-lewis/cleanurlparams.git cleanurlparams
+	git submodule add git://github.com/rowan-lewis/curlinputfield.git curlinputfield
+	git submodule add git://github.com/rowan-lewis/datetaglistfield.git datetaglistfield
 	git submodule add git://github.com/rowan-lewis/emailtemplatefilter.git emailtemplatefilter
 	git submodule add git://github.com/rowan-lewis/expressionfield.git expressionfield
 	git submodule add git://github.com/rowan-lewis/flexdatefield.git flexdatefield
@@ -1335,6 +1338,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/rowan-lewis/repeatingdatefield.git repeatingdatefield
 	git submodule add git://github.com/rowan-lewis/selectboxfilter.git selectboxfilter
 	git submodule add git://github.com/rowan-lewis/seomanager.git seomanager
+	git submodule add git://github.com/rowan-lewis/subsectionfield.git subsectionfield
 	git submodule add git://github.com/rowan-lewis/textboxfield.git textboxfield
 	git submodule add git://github.com/rowan-lewis/textileplusformatter.git textileplusformatter
 	git submodule add git://github.com/scottkf/mass-upload-utility.git mass-upload-utility

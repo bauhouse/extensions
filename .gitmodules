@@ -313,9 +313,9 @@
 [submodule "typogrify"]
 	path = typogrify
 	url = git://github.com/tonyarnold/typogrify.git
-[submodule "eventex"]
-	path = eventex
-	url = git://github.com/yourheropaul/eventex.git
 [submodule "xml_selectbox"]
 	path = xml_selectbox
 	url = git://github.com/tonyarnold/xml_selectbox.git
+[submodule "eventex"]
+	path = eventex
+	url = git://github.com/yourheropaul/eventex.git
