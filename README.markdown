@@ -8,7 +8,7 @@ To keep your collection up-to-date, just update the submodules.
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 31 July 2009, there are 108 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 10 August 2009, there are 113 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -23,6 +23,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 	</thead>
 	<tbody>
+		<tr>
+			<td>
+				<a href="http://github.com/lewiswharf/ab_split_test/">A/B Split Test</a>
+			</td>
+			<td>Allows A/B split testing of a page.</td>
+			<td>1.0</td>
+			<td>2008-08-07</td>
+			<td>
+				<a href="http://www.casadelewis.com">Mark Lewis</a>
+			</td>
+		</tr>
 		<tr>
 			<td>
 				<a href="http://github.com/rowan-lewis/activitylog/">Activity Log</a>
@@ -54,6 +65,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2009-05-31</td>
 			<td>
 				<a href="http://www.michael-eichelsdoerfer.de">Michael Eichelsdoerfer</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/phoque/admin_rainbow_headline/">Admin Rainbow Headline</a>
+			</td>
+			<td></td>
+			<td>1.0</td>
+			<td>2009-08-08</td>
+			<td>
+				<a href="http://www.phoque.com/projekte/symphony">Nils Werner</a>
 			</td>
 		</tr>
 		<tr>
@@ -208,6 +230,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2009-02-23</td>
 			<td>
 				<a href="http://airlock.com">Nick Dunn</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/rainerborene/datestamp_helper/">Datestamp Helper</a>
+			</td>
+			<td></td>
+			<td>1.0</td>
+			<td>2009-07-02</td>
+			<td>
+				<a href="mailto:rainerborene@gmail.com">Rainer Borene</a>
 			</td>
 		</tr>
 		<tr>
@@ -536,6 +569,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2009-01-29</td>
 			<td>
 				<a href="http://pixelcarnage.com/">Rowan Lewis</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/pointybeard/system_date_field/">Field: System Date</a>
+			</td>
+			<td></td>
+			<td>0.1</td>
+			<td>2009-08-05</td>
+			<td>
+				<a href="http://www.symphony21.com">Alistair Kearney</a>
 			</td>
 		</tr>
 		<tr>
@@ -1047,6 +1091,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/knupska/static_section/">Static Section</a>
+			</td>
+			<td></td>
+			<td>1.2</td>
+			<td>2009-08-07</td>
+			<td>
+				<a href="http://knupska.com">Nathan Martin</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/ahwayakchih/templatedtextformatters/">Templated Text Formatters</a>
 			</td>
 			<td>Allows to chain text formatters into one text formatter and/or create new text formatters based on installed templates. For example You can chain Markdown and BBCode text formatters, so text will be formatted by Markdown first and than by BBCode.</td>
@@ -1130,9 +1185,11 @@ That should make things easier. If you create or discover any more, just fork, a
 
 A listing of all the Symphony CMS Extensions by name
 
+* [A/B Split Test](http://github.com/lewiswharf/ab_split_test/) | git://github.com/lewiswharf/ab_split_test.git
 * [Activity Log](http://github.com/rowan-lewis/activitylog/) | git://github.com/rowan-lewis/activitylog.git
 * [Additional Page Types](http://github.com/makenosound/additional_page_types/) | git://github.com/makenosound/additional_page_types.git
 * [Admin CSS Override](http://github.com/michael-e/admin_css_override/) | git://github.com/michael-e/admin_css_override.git
+* [Admin Rainbow Headline](http://github.com/phoque/admin_rainbow_headline/) | git://github.com/phoque/admin_rainbow_headline.git
 * [Advanced Symphony Database Connector (ASDC)](http://github.com/pointybeard/asdc/) | git://github.com/pointybeard/asdc.git
 * [Advanced Taglist](http://github.com/pointybeard/advancedtaglist/) | git://github.com/pointybeard/advancedtaglist.git
 * [Advanced Upload Field](http://github.com/rowan-lewis/advanceduploadfield/) | git://github.com/rowan-lewis/advanceduploadfield.git
@@ -1150,6 +1207,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Cookie Monster](http://github.com/pointybeard/cookiemonster/) | git://github.com/pointybeard/cookiemonster.git
 * [Curl Input Field](http://github.com/rowan-lewis/curlinputfield/) | git://github.com/rowan-lewis/curlinputfield.git
 * [Data Source Cache](http://github.com/nickdunn/datasource_cache/) | git://github.com/nickdunn/datasource_cache.git
+* [Datestamp Helper](http://github.com/rainerborene/datestamp_helper/) | git://github.com/rainerborene/datestamp_helper.git
 * [Date Tag List Field](http://github.com/rowan-lewis/datetaglistfield/) | git://github.com/rowan-lewis/datetaglistfield.git
 * [Debug DevKit](http://github.com/symphony/debugdevkit/) | git://github.com/symphony/debugdevkit.git
 * [Downloadable Page Type](http://github.com/ashooner/Downloadable-Page-Type/) | git://github.com/ashooner/Downloadable-Page-Type.git
@@ -1221,7 +1279,9 @@ A listing of all the Symphony CMS Extensions by name
 * [Session Monster](http://github.com/pointybeard/sessionmonster/) | git://github.com/pointybeard/sessionmonster.git
 * [Shrimp](http://github.com/makenosound/shrimp/) | git://github.com/makenosound/shrimp.git
 * [Signed File Upload Field](http://github.com/tonyarnold/signedfileuploadfield/) | git://github.com/tonyarnold/signedfileuploadfield.git
+* [Static Section Field](http://github.com/knupska/static_section/) | git://github.com/knupska/static_section.git
 * [Sub Section Field](http://github.com/rowan-lewis/subsectionfield/) | git://github.com/rowan-lewis/subsectionfield.git
+* [System Date Field](http://github.com/pointybeard/system_date_field/) | git://github.com/pointybeard/system_date_field.git
 * [Templated Text Formatters](http://github.com/ahwayakchih/templatedtextformatters/) | git://github.com/ahwayakchih/templatedtextformatters.git
 * [Text Box Field](http://github.com/rowan-lewis/textboxfield/) | git://github.com/rowan-lewis/textboxfield.git
 * [Textformatter Labels](http://github.com/michael-e/textformatter_labels/) | git://github.com/michael-e/textformatter_labels.git
@@ -1260,6 +1320,8 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/czheng/pagetemplates.git pagetemplates
 	git submodule add git://github.com/czheng/referencelink.git referencelink
 	git submodule add git://github.com/Demwunz/multiselect_to_checkboxes.git multiselect_to_checkboxes
+	git submodule add git://github.com/knupska/static_section.git static_section
+	git submodule add git://github.com/lewiswharf/ab_split_test.git ab_split_test
 	git submodule add git://github.com/lewiswharf/mailchimp.git mailchimp
 	git submodule add git://github.com/lewiswharf/new_visiter.git new_visiter
 	git submodule add git://github.com/makenosound/additional_page_types.git additional_page_types
@@ -1287,6 +1349,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/nickdunn/vimeo_videos.git vimeo_videos
 	git submodule add git://github.com/nilshoerrmann/german.git german
 	git submodule add git://github.com/nilshoerrmann/mediathek.git mediathek
+	git submodule add git://github.com/phoque/admin_rainbow_headline.git admin_rainbow_headline
 	git submodule add git://github.com/phoque/EnableTabkey.git EnableTabkey
 	git submodule add git://github.com/phoque/jQueryfor202.git jQueryfor202
 	git submodule add git://github.com/phoque/NoEditing.git NoEditing
@@ -1314,9 +1377,11 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/pointybeard/selectbox_link_field.git selectbox_link_field
 	git submodule add git://github.com/pointybeard/serverheaders.git serverheaders
 	git submodule add git://github.com/pointybeard/sessionmonster.git sessionmonster
+	git submodule add git://github.com/pointybeard/system_date_field.git system_date_field
 	git submodule add git://github.com/pointybeard/richtext_tinymce.git richtext_tinymce
 	git submodule add git://github.com/pointybeard/uniqueinputfield.git uniqueinputfield
 	git submodule add git://github.com/pointybeard/xmlfield.git xmlfield
+	git submodule add git://github.com/rainerborene/datestamp_helper.git datestamp_helper
 	git submodule add git://github.com/rowan-lewis/activitylog.git activitylog
 	git submodule add git://github.com/rowan-lewis/advanceduploadfield.git advanceduploadfield
 	git submodule add git://github.com/rowan-lewis/bilinkfield.git bilinkfield

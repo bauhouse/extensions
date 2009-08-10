@@ -49,6 +49,12 @@
 [submodule "multiselect_to_checkboxes"]
 	path = multiselect_to_checkboxes
 	url = git://github.com/Demwunz/multiselect_to_checkboxes.git
+[submodule "static_section"]
+	path = static_section
+	url = git://github.com/knupska/static_section.git
+[submodule "ab_split_test"]
+	path = ab_split_test
+	url = git://github.com/lewiswharf/ab_split_test.git
 [submodule "mailchimp"]
 	path = mailchimp
 	url = git://github.com/lewiswharf/mailchimp.git
@@ -130,6 +136,9 @@
 [submodule "mediathek"]
 	path = mediathek
 	url = git://github.com/nilshoerrmann/mediathek.git
+[submodule "admin_rainbow_headline"]
+	path = admin_rainbow_headline
+	url = git://github.com/phoque/admin_rainbow_headline.git
 [submodule "EnableTabkey"]
 	path = EnableTabkey
 	url = git://github.com/phoque/EnableTabkey.git
@@ -211,12 +220,18 @@
 [submodule "sessionmonster"]
 	path = sessionmonster
 	url = git://github.com/pointybeard/sessionmonster.git
+[submodule "system_date_field"]
+	path = system_date_field
+	url = git://github.com/pointybeard/system_date_field.git
 [submodule "uniqueinputfield"]
 	path = uniqueinputfield
 	url = git://github.com/pointybeard/uniqueinputfield.git
 [submodule "xmlfield"]
 	path = xmlfield
 	url = git://github.com/pointybeard/xmlfield.git
+[submodule "datestamp_helper"]
+	path = datestamp_helper
+	url = git://github.com/rainerborene/datestamp_helper.git
 [submodule "activitylog"]
 	path = activitylog
 	url = git://github.com/rowan-lewis/activitylog.git
