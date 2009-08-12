@@ -8,7 +8,7 @@ To keep your collection up-to-date, just update the submodules.
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 10 August 2009, there are 113 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 12 August 2009, there are 116 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -179,6 +179,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/bauhouse/configuration/">Configuration Settings</a>
+			</td>
+			<td>Admin interface for Symphony System Preferences</td>
+			<td>1.1</td>
+			<td>2009-08-11</td>
+			<td>
+				<a href="http://www.domain7.com/">Stephen Bau</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/MrBlank/symphony_color_chooser/">Content Type Mappings</a>
 			</td>
 			<td></td>
@@ -197,6 +208,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2008-05-16</td>
 			<td>
 				<a href="http://www.symphony21.com">Symphony Team</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/nickdunn/db_sync/">Database Synchroniser</a>
+			</td>
+			<td>Logs structural database changes to allow syncing between builds.</td>
+			<td>0.3</td>
+			<td>2009-08-12</td>
+			<td>
+				<a href="http://airlock.com">Nick Dunn, Richard Warrender</a>
 			</td>
 		</tr>
 		<tr>
@@ -1091,6 +1113,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/bauhouse/sitename/">Site Name</a>
+			</td>
+			<td>Symphony System Preference for modifying the site name</td>
+			<td>1.0</td>
+			<td>2009-01-02</td>
+			<td>
+				<a href="http://www.domain7.com/">Stephen Bau</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/knupska/static_section/">Static Section</a>
 			</td>
 			<td></td>
@@ -1158,6 +1191,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/bauhouse/version/">Version</a>
+			</td>
+			<td>Symphony System Preference for viewing the currently installed version of Symphony</td>
+			<td>1.0</td>
+			<td>2009-08-11</td>
+			<td>
+				<a href="http://www.domain7.com/">Stephen Bau</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/nickdunn/vimeo_videos/">Vimeo Videos</a>
 			</td>
 			<td>Cache a video from Vimeo.</td>
@@ -1203,9 +1247,11 @@ A listing of all the Symphony CMS Extensions by name
 * [Clean URL Parameters](http://github.com/rowan-lewis/cleanurlparams/) | git://github.com/rowan-lewis/cleanurlparams.git
 * [Collapse Section Fields](http://github.com/carsten/collapse_sectionfields/) | git://github.com/carsten/collapse_sectionfields.git
 * [Color Chooser Field](http://github.com/MrBlank/symphony_color_chooser/) | git://github.com/MrBlank/symphony_color_chooser.git
+* [Configuration Settings](http://github.com/bauhouse/configuration/) | git://github.com/bauhouse/configuration.git
 * [Content Type Mappings](http://github.com/pointybeard/content_type_mappings/) | git://github.com/pointybeard/content_type_mappings.git
 * [Cookie Monster](http://github.com/pointybeard/cookiemonster/) | git://github.com/pointybeard/cookiemonster.git
 * [Curl Input Field](http://github.com/rowan-lewis/curlinputfield/) | git://github.com/rowan-lewis/curlinputfield.git
+* [Database Synchroniser](http://github.com/nickdunn/db_sync/) | git://github.com/nickdunn/db_sync.git
 * [Data Source Cache](http://github.com/nickdunn/datasource_cache/) | git://github.com/nickdunn/datasource_cache.git
 * [Datestamp Helper](http://github.com/rainerborene/datestamp_helper/) | git://github.com/rainerborene/datestamp_helper.git
 * [Date Tag List Field](http://github.com/rowan-lewis/datetaglistfield/) | git://github.com/rowan-lewis/datetaglistfield.git
@@ -1279,6 +1325,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Session Monster](http://github.com/pointybeard/sessionmonster/) | git://github.com/pointybeard/sessionmonster.git
 * [Shrimp](http://github.com/makenosound/shrimp/) | git://github.com/makenosound/shrimp.git
 * [Signed File Upload Field](http://github.com/tonyarnold/signedfileuploadfield/) | git://github.com/tonyarnold/signedfileuploadfield.git
+* [Site Name](http://github.com/bauhouse/sitename/) | git://github.com/bauhouse/sitename.git
 * [Static Section Field](http://github.com/knupska/static_section/) | git://github.com/knupska/static_section.git
 * [Sub Section Field](http://github.com/rowan-lewis/subsectionfield/) | git://github.com/rowan-lewis/subsectionfield.git
 * [System Date Field](http://github.com/pointybeard/system_date_field/) | git://github.com/pointybeard/system_date_field.git
@@ -1292,6 +1339,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Unique File Upload Field](http://github.com/michael-e/uniqueuploadfield/) | git://github.com/michael-e/uniqueuploadfield.git
 * [Unique Text Input Field](http://github.com/pointybeard/uniqueinputfield/) | git://github.com/pointybeard/uniqueinputfield.git
 * [Uploadify](http://github.com/nickdunn/uploadify/) | git://github.com/nickdunn/uploadify.git
+* [Version](http://github.com/bauhouse/version/) | git://github.com/bauhouse/version.git
 * [Vimeo Videos](http://github.com/nickdunn/vimeo_videos/) | git://github.com/nickdunn/vimeo_videos.git
 * [widgEditor Text Formatter](http://github.com/makenosound/widgeditor/) | git://github.com/makenosound/widgeditor.git
 * [XML Field](http://github.com/pointybeard/xmlfield/) | git://github.com/pointybeard/xmlfield.git
@@ -1313,6 +1361,9 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/ahwayakchih/ysboss.git ysboss
 	git submodule add git://github.com/andrrr/nested_cats.git nested_cats
 	git submodule add git://github.com/ashooner/Downloadable-Page-Type.git Downloadable-Page-Type
+	git submodule add git://github.com/bauhouse/configuration.git configuration
+	git submodule add git://github.com/bauhouse/sitename.git sitename
+	git submodule add git://github.com/bauhouse/version.git version
 	git submodule add git://github.com/carsten/collapse_sectionfields.git collapse_sectionfields
 	git submodule add git://github.com/carsten/globalparamloader.git globalparamloader
 	git submodule add git://github.com/carsten/populate_entry.git populate_entry
@@ -1337,6 +1388,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/michael-e/uniqueuploadfield.git uniqueuploadfield
 	git submodule add git://github.com/MrBlank/symphony_color_chooser.git symphony_color_chooser
 	git submodule add git://github.com/nickdunn/datasource_cache.git datasource_cache
+	git submodule add git://github.com/nickdunn/db_sync.git db_sync
 	git submodule add git://github.com/nickdunn/entity_diagram.git entity_diagram
 	git submodule add git://github.com/nickdunn/firebug_profiler.git firebug_profiler
 	git submodule add git://github.com/nickdunn/gravatar.git gravatar

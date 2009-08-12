@@ -28,6 +28,15 @@
 [submodule "Downloadable-Page-Type"]
 	path = Downloadable-Page-Type
 	url = git://github.com/ashooner/Downloadable-Page-Type.git
+[submodule "configuration"]
+	path = configuration
+	url = git://github.com/bauhouse/configuration.git
+[submodule "sitename"]
+	path = sitename
+	url = git://github.com/bauhouse/sitename.git
+[submodule "version"]
+	path = version
+	url = git://github.com/bauhouse/version.git
 [submodule "collapse_sectionfields"]
 	path = collapse_sectionfields
 	url = git://github.com/carsten/collapse_sectionfields.git
@@ -100,6 +109,9 @@
 [submodule "datasource_cache"]
 	path = datasource_cache
 	url = git://github.com/nickdunn/datasource_cache.git
+[submodule "db_sync"]
+	path = db_sync
+	url = git://github.com/nickdunn/db_sync.git
 [submodule "entity_diagram"]
 	path = entity_diagram
 	url = git://github.com/nickdunn/entity_diagram.git
