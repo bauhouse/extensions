@@ -182,15 +182,15 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/bauhouse/configuration/">Configuration Settings</a>
 			</td>
 			<td>Admin interface for Symphony System Preferences</td>
-			<td>1.1</td>
-			<td>2009-08-11</td>
+			<td>1.2</td>
+			<td>2009-08-12</td>
 			<td>
 				<a href="http://www.domain7.com/">Stephen Bau</a>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<a href="http://github.com/MrBlank/symphony_color_chooser/">Content Type Mappings</a>
+				<a href="http://github.com/pointybeard/content_type_mappings/">Content Type Mappings</a>
 			</td>
 			<td></td>
 			<td>1.3</td>
@@ -362,6 +362,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2009-04-28</td>
 			<td>
 				<a href="http://pixelcarnage.com/">Rowan Lewis</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/MrBlank/symphony_color_chooser/">Field: Color Chooser</a>
+			</td>
+			<td></td>
+			<td>1.1</td>
+			<td>2009-05-25</td>
+			<td>
+				<a href="http://www.joshnichols.com">Josh Nichols</a>
 			</td>
 		</tr>
 		<tr>
