@@ -1,21 +1,66 @@
-[submodule "extensions/export_ensemble"]
-	path = export_ensemble
-	url = git://github.com/pointybeard/export_ensemble.git
-[submodule "extensions/markdown"]
-	path = markdown
-	url = git://github.com/pointybeard/markdown.git
-[submodule "extensions/maintenance_mode"]
-	path = maintenance_mode
-	url = git://github.com/pointybeard/maintenance_mode.git
-[submodule "extensions/selectbox_link_field"]
-	path = selectbox_link_field
-	url = git://github.com/pointybeard/selectbox_link_field.git
-[submodule "extensions/jit_image_manipulation"]
-	path = jit_image_manipulation
-	url = git://github.com/pointybeard/jit_image_manipulation.git
-[submodule "extensions/profiledevkit"]
-	path = profiledevkit
-	url = git://github.com/symphony/profiledevkit.git
-[submodule "extensions/debugdevkit"]
+[submodule "admin_css_override"]
+	path = admin_css_override
+	url = git://github.com/michael-e/admin_css_override.git
+[submodule "collapse_sectionfields"]
+	path = collapse_sectionfields
+	url = git://github.com/carsten/collapse_sectionfields.git
+[submodule "content_type_mappings"]
+	path = content_type_mappings
+	url = git://github.com/pointybeard/content_type_mappings.git
+[submodule "datestamp_helper"]
+	path = datestamp_helper
+	url = git://github.com/rainerborene/datestamp_helper.git
+[submodule "debugdevkit"]
 	path = debugdevkit
 	url = git://github.com/symphony/debugdevkit.git
+[submodule "entity_diagram"]
+	path = entity_diagram
+	url = git://github.com/nickdunn/entity_diagram.git
+[submodule "export_ensemble"]
+	path = export_ensemble
+	url = git://github.com/pointybeard/export_ensemble.git
+[submodule "globalresourceloader"]
+	path = globalresourceloader
+	url = git://github.com/rowan-lewis/globalresourceloader.git
+[submodule "jit_image_manipulation"]
+	path = jit_image_manipulation
+	url = git://github.com/pointybeard/jit_image_manipulation.git
+[submodule "maintenance_mode"]
+	path = maintenance_mode
+	url = git://github.com/pointybeard/maintenance_mode.git
+[submodule "markdown"]
+	path = markdown
+	url = git://github.com/pointybeard/markdown.git
+[submodule "order_entries"]
+	path = order_entries
+	url = git://github.com/nickdunn/order_entries.git
+[submodule "pagesfield"]
+	path = pagesfield
+	url = git://github.com/pointybeard/pagesfield.git
+[submodule "profiledevkit"]
+	path = profiledevkit
+	url = git://github.com/symphony/profiledevkit.git
+[submodule "publishfiltering"]
+	path = publishfiltering
+	url = git://github.com/nickdunn/publishfiltering.git
+[submodule "section_schemas"]
+	path = section_schemas
+	url = git://github.com/nickdunn/section_schemas.git
+[submodule "selectbox_link_field"]
+	path = selectbox_link_field
+	url = git://github.com/pointybeard/selectbox_link_field.git
+[submodule "serverheaders"]
+	path = serverheaders
+	url = git://github.com/pointybeard/serverheaders.git
+[submodule "static_section"]
+	path = static_section
+	url = git://github.com/knupska/static_section.git
+[submodule "textformatter_labels"]
+	path = textformatter_labels
+	url = git://github.com/michael-e/textformatter_labels.git
+[submodule "uniqueinputfield"]
+	path = uniqueinputfield
+	url = git://github.com/pointybeard/uniqueinputfield.git
+[submodule "uniqueuploadfield"]
+	path = uniqueuploadfield
+	url = git://github.com/michael-e/uniqueuploadfield.git
