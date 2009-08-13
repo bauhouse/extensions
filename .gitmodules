@@ -24,7 +24,7 @@
 	url = git://github.com/nickdunn/entity_diagram.git
 [submodule "export_ensemble"]
 	path = export_ensemble
-	url = git://github.com/pointybeard/export_ensemble.git
+	url = git://github.com/bauhouse/export_ensemble.git
 [submodule "export_install_file"]
 	path = export_install_file
 	url = git://github.com/bauhouse/export_install_file.git
