@@ -16,7 +16,7 @@ A listing of the included submodules, by name:
 * [Debug DevKit](http://github.com/symphony/debugdevkit/) | git://github.com/symphony/debugdevkit.git
 * [Enhanced Tag List](http://github.com/czheng/enhancedtaglist/) | git://github.com/czheng/enhancedtaglist.git
 * [Entity Diagram](http://github.com/nickdunn/entity_diagram/) | git://github.com/nickdunn/entity_diagram.git
-* [Export Ensemble](http://github.com/pointybeard/export_ensemble/) | git://github.com/pointybeard/export_ensemble.git
+* [Export Ensemble (members branch of bauhouse fork)](http://github.com/bauhouse/export_ensemble/) | git://github.com/bauhouse/export_ensemble.git
 * [Export Install File](http://github.com/bauhouse/export_install_file/) | git://github.com/bauhouse/export_install_file.git
 * [Global Parameter Loader](http://github.com/carsten/globalparamloader/) | git://github.com/carsten/globalparamloader.git
 * [Global Resource Loader](http://github.com/rowan-lewis/globalresourceloader/) | git://github.com/rowan-lewis/globalresourceloader.git
