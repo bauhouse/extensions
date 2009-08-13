@@ -1,21 +1,21 @@
-[submodule "extensions/export_ensemble"]
+[submodule "export_ensemble"]
 	path = export_ensemble
 	url = git://github.com/pointybeard/export_ensemble.git
-[submodule "extensions/markdown"]
+[submodule "markdown"]
 	path = markdown
 	url = git://github.com/pointybeard/markdown.git
-[submodule "extensions/maintenance_mode"]
+[submodule "maintenance_mode"]
 	path = maintenance_mode
 	url = git://github.com/pointybeard/maintenance_mode.git
-[submodule "extensions/selectbox_link_field"]
+[submodule "selectbox_link_field"]
 	path = selectbox_link_field
 	url = git://github.com/pointybeard/selectbox_link_field.git
-[submodule "extensions/jit_image_manipulation"]
+[submodule "jit_image_manipulation"]
 	path = jit_image_manipulation
 	url = git://github.com/pointybeard/jit_image_manipulation.git
-[submodule "extensions/profiledevkit"]
+[submodule "profiledevkit"]
 	path = profiledevkit
 	url = git://github.com/symphony/profiledevkit.git
-[submodule "extensions/debugdevkit"]
+[submodule "debugdevkit"]
 	path = debugdevkit
 	url = git://github.com/symphony/debugdevkit.git
