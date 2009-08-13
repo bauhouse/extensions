@@ -8,7 +8,7 @@ To keep your collection up-to-date, just update the submodules.
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 12 August 2009, there are 116 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 13 August 2009, there are 120 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -329,6 +329,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2009-07-28</td>
 			<td>
 				<a href="http://pointybeard.com">Alistair Kearney</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/bauhouse/export_install_file/">Export Install File</a>
+			</td>
+			<td>A modified Export Ensemble extension that exports only the workspace/install.sql file</td>
+			<td>1.1</td>
+			<td>2009-07-10</td>
+			<td>
+				<a href="http://www.domain7.com/">Stephen Bau</a>
 			</td>
 		</tr>
 		<tr>
@@ -927,6 +938,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/bauhouse/members/">Members</a>
+			</td>
+			<td>Front end authentication system for a members site</td>
+			<td>1.0.1</td>
+			<td>2009-08-13</td>
+			<td>
+				<a href="http://www.symphony21.com">Symphony Team</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/Demwunz/multiselect_to_checkboxes/">Multiselect to Checkboxes</a>
 			</td>
 			<td>Convert all multiselect fields into checkboxes</td>
@@ -1113,6 +1135,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/pointybeard/shell/">Shell</a>
+			</td>
+			<td>Symphony Extensions that allows running commands from the command line</td>
+			<td>0.1</td>
+			<td>2008-08-13</td>
+			<td>
+				<a href="http://www.symphony-cms.com">Alistair Kearney</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/makenosound/shrimp/">Shrimp</a>
 			</td>
 			<td>Intelligent short URL redirection.</td>
@@ -1274,6 +1307,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Enhanced Tag List](http://github.com/czheng/enhancedtaglist/) | git://github.com/czheng/enhancedtaglist.git
 * [Entity Diagram](http://github.com/nickdunn/entity_diagram/) | git://github.com/nickdunn/entity_diagram.git
 * [Export Ensemble](http://github.com/pointybeard/export_ensemble/) | git://github.com/pointybeard/export_ensemble.git
+* [Export Install File](http://github.com/bauhouse/export_install_file/) | git://github.com/bauhouse/export_install_file.git
 * [Expression Field](http://github.com/rowan-lewis/expressionfield/) | git://github.com/rowan-lewis/expressionfield.git
 * [EventEx](http://github.com/yourheropaul/eventex/) | git://github.com/yourheropaul/eventex.git
 * [File Manager](http://github.com/pointybeard/filemanager/) | git://github.com/pointybeard/filemanager.git
@@ -1297,6 +1331,7 @@ A listing of all the Symphony CMS Extensions by name
 * [jQuery Date Picker](http://github.com/makenosound/jquery_date_picker/) | git://github.com/makenosound/jquery_date_picker.git
 * [Just In Time (JIT) Image Manipulation](http://github.com/pointybeard/jit_image_manipulation/) | git://github.com/pointybeard/jit_image_manipulation.git
 * [Language Field](http://git://github.com/ahwayakchih/languagefield/) | git://github.com/ahwayakchih/languagefield.git
+* [Library (ConfigurationAccessor class)](http://github.com/bauhouse/library/) | git://github.com/bauhouse/library.git
 * [Logs DevKit](http://github.com/rowan-lewis/logsdevkit/) | git://github.com/rowan-lewis/logsdevkit.git
 * [MailChimp](http://github.com/lewiswharf/mailchimp/) | git://github.com/lewiswharf/mailchimp.git
 * [Maintenance Mode](http://github.com/pointybeard/maintenance_mode/) | git://github.com/pointybeard/maintenance_mode.git
@@ -1305,6 +1340,7 @@ A listing of all the Symphony CMS Extensions by name
 * [markItUp!](http://github.com/ahwayakchih/markitup/) | git://github.com/ahwayakchih/markitup.git
 * [Mass Upload Utility](http://github.com/scottkf/mass-upload-utility/) | git://github.com/scottkf/mass-upload-utility.git
 * [Mediathek](http://github.com/nilshoerrmann/mediathek/) | git://github.com/nilshoerrmann/mediathek.git
+* [Members](http://github.com/bauhouse/members/) | git://github.com/bauhouse/members.git
 * [Multiselect to Checkboxes](http://github.com/Demwunz/multiselect_to_checkboxes/) | git://github.com/Demwunz/multiselect_to_checkboxes.git
 * [New Visiter](http://github.com/lewiswharf/new_visiter/) | git://github.com/lewiswharf/new_visiter.git
 * [Nested Categories](http://github.com/andrrr/nested_cats/) | git://github.com/andrrr/nested_cats.git
@@ -1334,6 +1370,7 @@ A listing of all the Symphony CMS Extensions by name
 * [SEO Manager](http://github.com/rowan-lewis/seomanager/) | git://github.com/rowan-lewis/seomanager.git
 * [Server Headers](http://github.com/pointybeard/serverheaders/) | git://github.com/pointybeard/serverheaders.git
 * [Session Monster](http://github.com/pointybeard/sessionmonster/) | git://github.com/pointybeard/sessionmonster.git
+* [Shell](http://github.com/pointybeard/shell/) | git://github.com/pointybeard/shell.git
 * [Shrimp](http://github.com/makenosound/shrimp/) | git://github.com/makenosound/shrimp.git
 * [Signed File Upload Field](http://github.com/tonyarnold/signedfileuploadfield/) | git://github.com/tonyarnold/signedfileuploadfield.git
 * [Site Name](http://github.com/bauhouse/sitename/) | git://github.com/bauhouse/sitename.git
@@ -1373,6 +1410,9 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/andrrr/nested_cats.git nested_cats
 	git submodule add git://github.com/ashooner/Downloadable-Page-Type.git Downloadable-Page-Type
 	git submodule add git://github.com/bauhouse/configuration.git configuration
+	git submodule add git://github.com/bauhouse/export_install_file.git export_install_file
+	git submodule add git://github.com/bauhouse/library.git library
+	git submodule add git://github.com/bauhouse/members.git members
 	git submodule add git://github.com/bauhouse/sitename.git sitename
 	git submodule add git://github.com/bauhouse/version.git version
 	git submodule add git://github.com/carsten/collapse_sectionfields.git collapse_sectionfields
@@ -1440,6 +1480,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/pointybeard/selectbox_link_field.git selectbox_link_field
 	git submodule add git://github.com/pointybeard/serverheaders.git serverheaders
 	git submodule add git://github.com/pointybeard/sessionmonster.git sessionmonster
+	git submodule add git://github.com/pointybeard/shell.git shell
 	git submodule add git://github.com/pointybeard/system_date_field.git system_date_field
 	git submodule add git://github.com/pointybeard/richtext_tinymce.git richtext_tinymce
 	git submodule add git://github.com/pointybeard/uniqueinputfield.git uniqueinputfield
