@@ -49,6 +49,9 @@
 [submodule "collapse_sectionfields"]
 	path = collapse_sectionfields
 	url = git://github.com/carsten/collapse_sectionfields.git
+[submodule "color_chooser_field"]
+	path = color_chooser_field
+	url = git://github.com/MrBlank/symphony_color_chooser.git
 [submodule "configuration"]
 	path = configuration
 	url = git://github.com/bauhouse/configuration.git
@@ -307,9 +310,6 @@
 [submodule "subsectionfield"]
 	path = subsectionfield
 	url = git://github.com/rowan-lewis/subsectionfield.git
-[submodule "symphony_color_chooser"]
-	path = symphony_color_chooser
-	url = git://github.com/MrBlank/symphony_color_chooser.git
 [submodule "system_date_field"]
 	path = system_date_field
 	url = git://github.com/pointybeard/system_date_field.git

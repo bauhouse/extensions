@@ -1437,7 +1437,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/michael-e/admin_css_override.git admin_css_override
 	git submodule add git://github.com/michael-e/textformatter_labels.git textformatter_labels
 	git submodule add git://github.com/michael-e/uniqueuploadfield.git uniqueuploadfield
-	git submodule add git://github.com/MrBlank/symphony_color_chooser.git symphony_color_chooser
+	git submodule add git://github.com/MrBlank/symphony_color_chooser.git color_chooser_field
 	git submodule add git://github.com/nickdunn/datasource_cache.git datasource_cache
 	git submodule add git://github.com/nickdunn/db_sync.git db_sync
 	git submodule add git://github.com/nickdunn/entity_diagram.git entity_diagram
