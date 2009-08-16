@@ -351,7 +351,7 @@
 	url = git://github.com/makenosound/widgeditor.git
 [submodule "xml_selectbox"]
 	path = xml_selectbox
-	url = git://github.com/tonyarnold/xml_selectbox.git
+	url = git://github.com/nickdunn/xml_selectbox.git
 [submodule "xmlfield"]
 	path = xmlfield
 	url = git://github.com/pointybeard/xmlfield.git
