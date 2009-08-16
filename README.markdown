@@ -8,7 +8,7 @@ To keep your collection up-to-date, just update the submodules.
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 13 August 2009, there are 120 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 16 August 2009, there are 120 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -674,7 +674,7 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
-				<a href="http://github.com/tonyarnold/xml_selectbox/">Field: XML Select Box</a>
+				<a href="http://github.com/nickdunn/xml_selectbox/">Field: XML Select Box</a>
 			</td>
 			<td></td>
 			<td>0.1</td>
@@ -1391,7 +1391,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Vimeo Videos](http://github.com/nickdunn/vimeo_videos/) | git://github.com/nickdunn/vimeo_videos.git
 * [widgEditor Text Formatter](http://github.com/makenosound/widgeditor/) | git://github.com/makenosound/widgeditor.git
 * [XML Field](http://github.com/pointybeard/xmlfield/) | git://github.com/pointybeard/xmlfield.git
-* [XML Select Box](http://github.com/tonyarnold/xml_selectbox/) | git://github.com/tonyarnold/xml_selectbox.git
+* [XML Select Box](http://github.com/nickdunn/xml_selectbox/) | git://github.com/nickdunn/xml_selectbox.git
 * [Yahoo! Search BOSS](http://github.com/ahwayakchih/ysboss/) | git://github.com/ahwayakchih/ysboss.git
 
 
@@ -1450,6 +1450,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/nickdunn/section_schemas.git section_schemas
 	git submodule add git://github.com/nickdunn/uploadify.git uploadify
 	git submodule add git://github.com/nickdunn/vimeo_videos.git vimeo_videos
+	git submodule add git://github.com/nickdunn/xml_selectbox.git xml_selectbox
 	git submodule add git://github.com/nilshoerrmann/german.git german
 	git submodule add git://github.com/nilshoerrmann/mediathek.git mediathek
 	git submodule add git://github.com/phoque/admin_rainbow_headline.git admin_rainbow_headline
@@ -1517,5 +1518,4 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/symphony/profiledevkit.git profiledevkit
 	git submodule add git://github.com/tonyarnold/signedfileuploadfield.git signedfileuploadfield
 	git submodule add git://github.com/tonyarnold/typogrify.git typogrify
-	git submodule add git://github.com/tonyarnold/xml_selectbox.git xml_selectbox
 	git submodule add git://github.com/yourheropaul/eventex.git eventex
