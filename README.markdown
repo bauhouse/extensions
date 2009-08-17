@@ -1018,8 +1018,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/czheng/pagetemplates/">Page Templates</a>
 			</td>
 			<td>Create pages from predefined templates.</td>
-			<td>0.65</td>
-			<td>2009-06-13</td>
+			<td>0.7</td>
+			<td>2009-08-16</td>
 			<td>Craig Zheng</td>
 		</tr>
 		<tr>
