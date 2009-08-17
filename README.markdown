@@ -2,7 +2,7 @@
 
 The sole purpose of this repository is to maintain a collection of all the Symphony CMS extensions available from the official [Downloads](http://symphony-cms.com/downloads/) page or any other extensions that are being developed on GitHub, whether officially released or not.
 
-To keep your collection up-to-date, just update the submodules.
+To keep your collection up-to-date, just update the submodules. (Make sure your `.git/config` file matches the submodule list at the bottom of this README to avoid any errors.)
 
 	git submodule update --init
 
@@ -1519,3 +1519,258 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/tonyarnold/signedfileuploadfield.git signedfileuploadfield
 	git submodule add git://github.com/tonyarnold/typogrify.git typogrify
 	git submodule add git://github.com/yourheropaul/eventex.git eventex
+
+## Git Config
+
+Be sure that your extensions library has an up-to-date `.git/config` file, 
+or you'll run into errors when running `git submodule update --init`:
+
+	[core]
+		repositoryformatversion = 0
+		filemode = true
+		bare = false
+		logallrefupdates = true
+		ignorecase = true
+	[remote "origin"]
+		url = git@github.com:bauhouse/extensions.git
+		fetch = +refs/heads/*:refs/remotes/origin/*
+	[submodule "ab_split_test"]
+		url = git://github.com/lewiswharf/ab_split_test.git
+	[submodule "activitylog"]
+		url = git://github.com/rowan-lewis/activitylog.git
+	[submodule "additional_page_types"]
+		url = git://github.com/makenosound/additional_page_types.git
+	[submodule "admin_css_override"]
+		url = git://github.com/michael-e/admin_css_override.git
+	[submodule "admin_rainbow_headline"]
+		url = git://github.com/phoque/admin_rainbow_headline.git
+	[submodule "advancedtaglist"]
+		url = git://github.com/pointybeard/advancedtaglist.git
+	[submodule "advanceduploadfield"]
+		url = git://github.com/rowan-lewis/advanceduploadfield.git
+	[submodule "akismet"]
+		url = git://github.com/pointybeard/akismet.git
+	[submodule "asdc"]
+		url = git://github.com/pointybeard/asdc.git
+	[submodule "bilinkfield"]
+		url = git://github.com/rowan-lewis/bilinkfield.git
+	[submodule "breadcrumb"]
+		url = git://github.com/pointybeard/breadcrumb.git
+	[submodule "browsedevkit"]
+		url = git://github.com/rowan-lewis/browsedevkit.git
+	[submodule "cachelite"]
+		url = git://github.com/makenosound/cachelite.git
+	[submodule "calendaroverlay"]
+		url = git://github.com/rowan-lewis/calendaroverlay.git
+	[submodule "canofspam"]
+		url = git://github.com/rowan-lewis/canofspam.git
+	[submodule "cleanurlparams"]
+		url = git://github.com/rowan-lewis/cleanurlparams.git
+	[submodule "collapse_sectionfields"]
+		url = git://github.com/carsten/collapse_sectionfields.git
+	[submodule "color_chooser_field"]
+		url = git://github.com/MrBlank/symphony_color_chooser.git
+	[submodule "configuration"]
+		url = git://github.com/bauhouse/configuration.git
+	[submodule "content_type_mappings"]
+		url = git://github.com/pointybeard/content_type_mappings.git
+	[submodule "cookiemonster"]
+		url = git://github.com/pointybeard/cookiemonster.git
+	[submodule "curlinputfield"]
+		url = git://github.com/rowan-lewis/curlinputfield.git
+	[submodule "datasource_cache"]
+		url = git://github.com/nickdunn/datasource_cache.git
+	[submodule "datestamp_helper"]
+		url = git://github.com/rainerborene/datestamp_helper.git
+	[submodule "datetaglistfield"]
+		url = git://github.com/rowan-lewis/datetaglistfield.git
+	[submodule "db_sync"]
+		url = git://github.com/nickdunn/db_sync.git
+	[submodule "debugdevkit"]
+		url = git://github.com/symphony/debugdevkit.git
+	[submodule "Downloadable-Page-Type"]
+		url = git://github.com/ashooner/Downloadable-Page-Type.git
+	[submodule "dynamic_event_redirect"]
+		url = git://github.com/makenosound/dynamic_event_redirect.git
+	[submodule "emailtemplatefilter"]
+		url = git://github.com/rowan-lewis/emailtemplatefilter.git
+	[submodule "EnableTabkey"]
+		url = git://github.com/phoque/EnableTabkey.git
+	[submodule "enhancedtaglist"]
+		url = git://github.com/czheng/enhancedtaglist.git
+	[submodule "entity_diagram"]
+		url = git://github.com/nickdunn/entity_diagram.git
+	[submodule "eventex"]
+		url = git://github.com/yourheropaul/eventex.git
+	[submodule "export_ensemble"]
+		url = git://github.com/pointybeard/export_ensemble.git
+	[submodule "export_install_file"]
+		url = git://github.com/bauhouse/export_install_file.git
+	[submodule "expressionfield"]
+		url = git://github.com/rowan-lewis/expressionfield.git
+	[submodule "extension--time-field"]
+		url = git://github.com/pointybeard/extension--time-field.git
+	[submodule "filemanager"]
+		url = git://github.com/pointybeard/filemanager.git
+	[submodule "filterfield"]
+		url = git://github.com/ahwayakchih/filterfield.git
+	[submodule "firebug_profiler"]
+		url = git://github.com/nickdunn/firebug_profiler.git
+	[submodule "flexdatefield"]
+		url = git://github.com/rowan-lewis/flexdatefield.git
+	[submodule "frontend_authentication"]
+		url = git://github.com/pointybeard/frontend_authentication.git
+	[submodule "frontendmembermanager"]
+		url = git://github.com/rowan-lewis/frontendmembermanager.git
+	[submodule "gcse"]
+		url = git://github.com/ahwayakchih/gcse.git
+	[submodule "german"]
+		url = git://github.com/nilshoerrmann/german.git
+	[submodule "globalparamloader"]
+		url = git://github.com/carsten/globalparamloader.git
+	[submodule "globalresourceloader"]
+		url = git://github.com/rowan-lewis/globalresourceloader.git
+	[submodule "gravatar"]
+		url = git://github.com/nickdunn/gravatar.git
+	[submodule "hashfield"]
+		url = git://github.com/pointybeard/hashfield.git
+	[submodule "htmlformatter"]
+		url = git://github.com/rowan-lewis/htmlformatter.git
+	[submodule "importmanager"]
+		url = git://github.com/rowan-lewis/importmanager.git
+	[submodule "improvedpageresolve"]
+		url = git://github.com/ahwayakchih/improvedpageresolve.git
+	[submodule "incrementnumberfield"]
+		url = git://github.com/nickdunn/incrementnumberfield.git
+	[submodule "iplocation_lookup"]
+		url = git://github.com/pointybeard/iplocation_lookup.git
+	[submodule "jit_image_manipulation"]
+		url = git://github.com/pointybeard/jit_image_manipulation.git
+	[submodule "jquery_date_picker"]
+		url = git://github.com/makenosound/jquery_date_picker.git
+	[submodule "jQueryfor202"]
+		url = git://github.com/phoque/jQueryfor202.git
+	[submodule "languagefield"]
+		url = git://github.com/ahwayakchih/languagefield.git
+	[submodule "library"]
+		url = git://github.com/bauhouse/library.git
+	[submodule "logsdevkit"]
+		url = git://github.com/rowan-lewis/logsdevkit.git
+	[submodule "mailchimp"]
+		url = git://github.com/lewiswharf/mailchimp.git
+	[submodule "maintenance_mode"]
+		url = git://github.com/pointybeard/maintenance_mode.git
+	[submodule "maplocationfield"]
+		url = git://github.com/pointybeard/maplocationfield.git
+	[submodule "markdown"]
+		url = git://github.com/pointybeard/markdown.git
+	[submodule "markitup"]
+		url = git://github.com/ahwayakchih/markitup.git
+	[submodule "mass-upload-utility"]
+		url = git://github.com/scottkf/mass-upload-utility.git
+	[submodule "mediathek"]
+		url = git://github.com/nilshoerrmann/mediathek.git
+	[submodule "members"]
+		url = git://github.com/bauhouse/members.git
+	[submodule "multiselect_to_checkboxes"]
+		url = git://github.com/Demwunz/multiselect_to_checkboxes.git
+	[submodule "nested_cats"]
+		url = git://github.com/andrrr/nested_cats.git
+	[submodule "new_visiter"]
+		url = git://github.com/lewiswharf/new_visiter.git
+	[submodule "NoEditing"]
+		url = git://github.com/phoque/NoEditing.git
+	[submodule "numberfield"]
+		url = git://github.com/pointybeard/numberfield.git
+	[submodule "numericgroupingfield"]
+		url = git://github.com/rowan-lewis/numericgroupingfield.git
+	[submodule "order_entries"]
+		url = git://github.com/nickdunn/order_entries.git
+	[submodule "page_fields"]
+		url = git://github.com/skeary/page_fields.git
+	[submodule "pages_editor_minimal"]
+		url = git://github.com/pointybeard/pages_editor_minimal.git
+	[submodule "pagesfield"]
+		url = git://github.com/pointybeard/pagesfield.git
+	[submodule "pagetemplates"]
+		url = git://github.com/czheng/pagetemplates.git
+	[submodule "paypal_payments"]
+		url = git://github.com/makenosound/paypal_payments.git
+	[submodule "pessimistic-db-locking"]
+		url = git://github.com/scottkf/pessimistic-db-locking.git
+	[submodule "pingomatic"]
+		url = git://github.com/nickdunn/pingomatic.git
+	[submodule "populate_entry"]
+		url = git://github.com/carsten/populate_entry.git
+	[submodule "profiledevkit"]
+		url = git://github.com/symphony/profiledevkit.git
+	[submodule "publishfiltering"]
+		url = git://github.com/nickdunn/publishfiltering.git
+	[submodule "publishnotesfield"]
+		url = git://github.com/makenosound/publishnotesfield.git
+	[submodule "recaptcha"]
+		url = git://github.com/pointybeard/recaptcha.git
+	[submodule "referencelink"]
+		url = git://github.com/czheng/referencelink.git
+	[submodule "reflectionfield"]
+		url = git://github.com/rowan-lewis/reflectionfield.git
+	[submodule "repeatingdatefield"]
+		url = git://github.com/rowan-lewis/repeatingdatefield.git
+	[submodule "richtext_tinymce"]
+		url = git://github.com/pointybeard/richtext_tinymce.git
+	[submodule "section_schemas"]
+		url = git://github.com/nickdunn/section_schemas.git
+	[submodule "selectbox_link_field"]
+		url = git://github.com/pointybeard/selectbox_link_field.git
+	[submodule "selectboxfilter"]
+		url = git://github.com/rowan-lewis/selectboxfilter.git
+	[submodule "seomanager"]
+		url = git://github.com/rowan-lewis/seomanager.git
+	[submodule "serverheaders"]
+		url = git://github.com/pointybeard/serverheaders.git
+	[submodule "sessionmonster"]
+		url = git://github.com/pointybeard/sessionmonster.git
+	[submodule "shell"]
+		url = git://github.com/pointybeard/shell.git
+	[submodule "shrimp"]
+		url = git://github.com/makenosound/shrimp.git
+	[submodule "signedfileuploadfield"]
+		url = git://github.com/tonyarnold/signedfileuploadfield.git
+	[submodule "sitename"]
+		url = git://github.com/bauhouse/sitename.git
+	[submodule "static_section"]
+		url = git://github.com/knupska/static_section.git
+	[submodule "subsectionfield"]
+		url = git://github.com/rowan-lewis/subsectionfield.git
+	[submodule "system_date_field"]
+		url = git://github.com/pointybeard/system_date_field.git
+	[submodule "templatedtextformatters"]
+		url = git://github.com/ahwayakchih/templatedtextformatters.git
+	[submodule "textboxfield"]
+		url = git://github.com/rowan-lewis/textboxfield.git
+	[submodule "textformatter_labels"]
+		url = git://github.com/michael-e/textformatter_labels.git
+	[submodule "textileplusformatter"]
+		url = git://github.com/rowan-lewis/textileplusformatter.git
+	[submodule "translationmanager"]
+		url = git://github.com/ahwayakchih/translationmanager.git
+	[submodule "typogrify"]
+		url = git://github.com/tonyarnold/typogrify.git
+	[submodule "uniqueinputfield"]
+		url = git://github.com/pointybeard/uniqueinputfield.git
+	[submodule "uniqueuploadfield"]
+		url = git://github.com/michael-e/uniqueuploadfield.git
+	[submodule "uploadify"]
+		url = git://github.com/nickdunn/uploadify.git
+	[submodule "version"]
+		url = git://github.com/bauhouse/version.git
+	[submodule "vimeo_videos"]
+		url = git://github.com/nickdunn/vimeo_videos.git
+	[submodule "widgeditor"]
+		url = git://github.com/makenosound/widgeditor.git
+	[submodule "xml_selectbox"]
+		url = git://github.com/nickdunn/xml_selectbox.git
+	[submodule "xmlfield"]
+		url = git://github.com/pointybeard/xmlfield.git
+	[submodule "ysboss"]
+		url = git://github.com/ahwayakchih/ysboss.git
