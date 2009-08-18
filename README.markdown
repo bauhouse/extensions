@@ -215,8 +215,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/nickdunn/db_sync/">Database Synchroniser</a>
 			</td>
 			<td>Logs structural database changes to allow syncing between builds.</td>
-			<td>0.3</td>
-			<td>2009-08-12</td>
+			<td>0.4</td>
+			<td>2009-08-18</td>
 			<td>
 				<a href="http://airlock.com">Nick Dunn, Richard Warrender</a>
 			</td>
