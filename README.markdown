@@ -8,7 +8,7 @@ To keep your collection up-to-date, just update the submodules. (Make sure your 
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 16 August 2009, there are 120 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 19 August 2009, there are 121 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -503,6 +503,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2009-03-13</td>
 			<td>
 				<a href="http://www.nilshoerrmann.de">Nils Hoerrmann</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/makenosound/mediumtextareafield/">Field: Medium Textarea</a>
+			</td>
+			<td>Extension of the default textarea field that stores data as `mediumtext` instead of `text`.</td>
+			<td>1.0</td>
+			<td>2009-08-19</td>
+			<td>
+				<a href="http://makenosound.com/">Max Wheeler</a>
 			</td>
 		</tr>
 		<tr>
@@ -1340,6 +1351,7 @@ A listing of all the Symphony CMS Extensions by name
 * [markItUp!](http://github.com/ahwayakchih/markitup/) | git://github.com/ahwayakchih/markitup.git
 * [Mass Upload Utility](http://github.com/scottkf/mass-upload-utility/) | git://github.com/scottkf/mass-upload-utility.git
 * [Mediathek](http://github.com/nilshoerrmann/mediathek/) | git://github.com/nilshoerrmann/mediathek.git
+* [Medium Textarea Field](http://github.com/makenosound/mediumtextareafield/) | git://github.com/makenosound/mediumtextareafield.git
 * [Members](http://github.com/bauhouse/members/) | git://github.com/bauhouse/members.git
 * [Multiselect to Checkboxes](http://github.com/Demwunz/multiselect_to_checkboxes/) | git://github.com/Demwunz/multiselect_to_checkboxes.git
 * [New Visiter](http://github.com/lewiswharf/new_visiter/) | git://github.com/lewiswharf/new_visiter.git
@@ -1430,6 +1442,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/makenosound/cachelite.git cachelite
 	git submodule add git://github.com/makenosound/dynamic_event_redirect.git dynamic_event_redirect
 	git submodule add git://github.com/makenosound/jquery_date_picker.git jquery_date_picker
+	git submodule add git://github.com/makenosound/mediumtextareafield.git mediumtextareafield
 	git submodule add git://github.com/makenosound/paypal_payments.git paypal_payments
 	git submodule add git://github.com/makenosound/publishnotesfield.git publishnotesfield
 	git submodule add git://github.com/makenosound/shrimp.git shrimp
@@ -1670,6 +1683,9 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/scottkf/mass-upload-utility.git
 	[submodule "mediathek"]
 		url = git://github.com/nilshoerrmann/mediathek.git
+	[submodule "mediumtextareafield"]
+		path = mediumtextareafield
+		url = git://github.com/makenosound/mediumtextareafield.git
 	[submodule "members"]
 		url = git://github.com/bauhouse/members.git
 	[submodule "multiselect_to_checkboxes"]

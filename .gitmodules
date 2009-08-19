@@ -202,6 +202,9 @@
 [submodule "mediathek"]
 	path = mediathek
 	url = git://github.com/nilshoerrmann/mediathek.git
+[submodule "mediumtextareafield"]
+	path = mediumtextareafield
+	url = git://github.com/makenosound/mediumtextareafield.git
 [submodule "members"]
 	path = members
 	url = git://github.com/bauhouse/members.git
