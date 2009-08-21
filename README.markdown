@@ -1332,7 +1332,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Database Synchroniser](http://github.com/nickdunn/db_sync/) | git://github.com/nickdunn/db_sync.git
 * [Data Source Cache](http://github.com/nickdunn/datasource_cache/) | git://github.com/nickdunn/datasource_cache.git
 * [Datestamp Helper](http://github.com/rainerborene/datestamp_helper/) | git://github.com/rainerborene/datestamp_helper.git
-* [Date and Time](http://github.com/nilshoerrmann/datetime/) | git://github.com/nilshoerrmann/datetime.git
+* [Date and Time Field](http://github.com/nilshoerrmann/datetime/) | git://github.com/nilshoerrmann/datetime.git
 * [Date Tag List Field](http://github.com/rowan-lewis/datetaglistfield/) | git://github.com/rowan-lewis/datetaglistfield.git
 * [Debug DevKit](http://github.com/symphony/debugdevkit/) | git://github.com/symphony/debugdevkit.git
 * [Downloadable Page Type](http://github.com/ashooner/Downloadable-Page-Type/) | git://github.com/ashooner/Downloadable-Page-Type.git
