@@ -8,7 +8,7 @@ To keep your collection up-to-date, just update the submodules. (Make sure your 
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 19 August 2009, there are 121 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 21 August 2009, there are 123 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -212,6 +212,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/pointybeard/cron/">Cron</a>
+			</td>
+			<td>Symphony Extension that allows the automation of tasks via CRON</td>
+			<td>1.0</td>
+			<td>2009-08-21</td>
+			<td>
+				<a href="http://symphony-cms.com">Alistair Kearney</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/nickdunn/db_sync/">Database Synchroniser</a>
 			</td>
 			<td>Logs structural database changes to allow syncing between builds.</td>
@@ -395,6 +406,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2009-03-30</td>
 			<td>
 				<a href="http://pixelcarnage.com/">Rowan Lewis</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/nilshoerrmann/datetime/">Field: Date and Time</a>
+			</td>
+			<td>A date and time field for Symphony CMS allowing multiple dates and date ranges</td>
+			<td>1.0</td>
+			<td>2009-08-21</td>
+			<td>
+				<a href="http://www.nilshoerrmann.de">Nils Hoerrmann</a>
 			</td>
 		</tr>
 		<tr>
@@ -1305,10 +1327,12 @@ A listing of all the Symphony CMS Extensions by name
 * [Configuration Settings](http://github.com/bauhouse/configuration/) | git://github.com/bauhouse/configuration.git
 * [Content Type Mappings](http://github.com/pointybeard/content_type_mappings/) | git://github.com/pointybeard/content_type_mappings.git
 * [Cookie Monster](http://github.com/pointybeard/cookiemonster/) | git://github.com/pointybeard/cookiemonster.git
+* [Cron](http://github.com/pointybeard/cron/) | git://github.com/pointybeard/cron.git
 * [Curl Input Field](http://github.com/rowan-lewis/curlinputfield/) | git://github.com/rowan-lewis/curlinputfield.git
 * [Database Synchroniser](http://github.com/nickdunn/db_sync/) | git://github.com/nickdunn/db_sync.git
 * [Data Source Cache](http://github.com/nickdunn/datasource_cache/) | git://github.com/nickdunn/datasource_cache.git
 * [Datestamp Helper](http://github.com/rainerborene/datestamp_helper/) | git://github.com/rainerborene/datestamp_helper.git
+* [Date and Time](http://github.com/nilshoerrmann/datetime/) | git://github.com/nilshoerrmann/datetime.git
 * [Date Tag List Field](http://github.com/rowan-lewis/datetaglistfield/) | git://github.com/rowan-lewis/datetaglistfield.git
 * [Debug DevKit](http://github.com/symphony/debugdevkit/) | git://github.com/symphony/debugdevkit.git
 * [Downloadable Page Type](http://github.com/ashooner/Downloadable-Page-Type/) | git://github.com/ashooner/Downloadable-Page-Type.git
@@ -1464,6 +1488,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/nickdunn/uploadify.git uploadify
 	git submodule add git://github.com/nickdunn/vimeo_videos.git vimeo_videos
 	git submodule add git://github.com/nickdunn/xml_selectbox.git xml_selectbox
+	git submodule add git://github.com/nilshoerrmann/datetime.git datetime
 	git submodule add git://github.com/nilshoerrmann/german.git german
 	git submodule add git://github.com/nilshoerrmann/mediathek.git mediathek
 	git submodule add git://github.com/phoque/admin_rainbow_headline.git admin_rainbow_headline
@@ -1476,6 +1501,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/pointybeard/breadcrumb.git breadcrumb
 	git submodule add git://github.com/pointybeard/content_type_mappings.git content_type_mappings
 	git submodule add git://github.com/pointybeard/cookiemonster.git cookiemonster
+	git submodule add git://github.com/pointybeard/cron.git cron
 	git submodule add git://github.com/pointybeard/export_ensemble.git export_ensemble
 	git submodule add git://github.com/pointybeard/extension--time-field.git extension--time-field
 	git submodule add git://github.com/pointybeard/filemanager.git filemanager
@@ -1540,13 +1566,18 @@ or you'll run into errors when running `git submodule update --init`:
 
 	[core]
 		repositoryformatversion = 0
-		filemode = true
+		filemode = false
 		bare = false
 		logallrefupdates = true
+		symlinks = false
 		ignorecase = true
+		autocrlf = false
 	[remote "origin"]
 		url = git@github.com:bauhouse/extensions.git
 		fetch = +refs/heads/*:refs/remotes/origin/*
+	[branch "master"]
+		remote = origin
+		merge = refs/heads/master
 	[submodule "ab_split_test"]
 		url = git://github.com/lewiswharf/ab_split_test.git
 	[submodule "activitylog"]
@@ -1589,6 +1620,8 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/pointybeard/content_type_mappings.git
 	[submodule "cookiemonster"]
 		url = git://github.com/pointybeard/cookiemonster.git
+	[submodule "cron"]
+		url = git://github.com/pointybeard/cron.git
 	[submodule "curlinputfield"]
 		url = git://github.com/rowan-lewis/curlinputfield.git
 	[submodule "datasource_cache"]
@@ -1597,6 +1630,8 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/rainerborene/datestamp_helper.git
 	[submodule "datetaglistfield"]
 		url = git://github.com/rowan-lewis/datetaglistfield.git
+	[submodule "datetime"]
+		url = git://github.com/nilshoerrmann/datetime.git
 	[submodule "db_sync"]
 		url = git://github.com/nickdunn/db_sync.git
 	[submodule "debugdevkit"]
@@ -1684,7 +1719,6 @@ or you'll run into errors when running `git submodule update --init`:
 	[submodule "mediathek"]
 		url = git://github.com/nilshoerrmann/mediathek.git
 	[submodule "mediumtextareafield"]
-		path = mediumtextareafield
 		url = git://github.com/makenosound/mediumtextareafield.git
 	[submodule "members"]
 		url = git://github.com/bauhouse/members.git
@@ -1790,3 +1824,4 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/pointybeard/xmlfield.git
 	[submodule "ysboss"]
 		url = git://github.com/ahwayakchih/ysboss.git
+

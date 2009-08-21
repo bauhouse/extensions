@@ -61,6 +61,9 @@
 [submodule "cookiemonster"]
 	path = cookiemonster
 	url = git://github.com/pointybeard/cookiemonster.git
+[submodule "cron"]
+	path = cron
+	url = git://github.com/pointybeard/cron.git
 [submodule "curlinputfield"]
 	path = curlinputfield
 	url = git://github.com/rowan-lewis/curlinputfield.git
@@ -73,6 +76,9 @@
 [submodule "datetaglistfield"]
 	path = datetaglistfield
 	url = git://github.com/rowan-lewis/datetaglistfield.git
+[submodule "datetime"]
+	path = datetime
+	url = git://github.com/nilshoerrmann/datetime.git
 [submodule "db_sync"]
 	path = db_sync
 	url = git://github.com/nickdunn/db_sync.git
