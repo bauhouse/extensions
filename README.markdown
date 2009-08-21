@@ -1171,8 +1171,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/pointybeard/shell/">Shell</a>
 			</td>
 			<td>Symphony Extensions that allows running commands from the command line</td>
-			<td>0.1</td>
-			<td>2008-08-13</td>
+			<td>0.3</td>
+			<td>2008-08-18</td>
 			<td>
 				<a href="http://www.symphony-cms.com">Alistair Kearney</a>
 			</td>
