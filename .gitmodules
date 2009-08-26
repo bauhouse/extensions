@@ -367,3 +367,9 @@
 [submodule "ysboss"]
 	path = ysboss
 	url = git://github.com/ahwayakchih/ysboss.git
+[submodule "charactercounter_textinput"]
+	path = charactercounter_textinput
+	url = git://github.com/eoghanobrien/sym_charactercount_textinput.git
+[submodule "charactercount_textarea"]
+	path = charactercount_textarea
+	url = git://github.com/eoghanobrien/sym_charactercount_textarea.git
