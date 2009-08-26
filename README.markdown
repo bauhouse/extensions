@@ -8,7 +8,7 @@ To keep your collection up-to-date, just update the submodules. (Make sure your 
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 21 August 2009, there are 123 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 26 August 2009, there are 125 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -384,6 +384,28 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2009-04-28</td>
 			<td>
 				<a href="http://pixelcarnage.com/">Rowan Lewis</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/eoghanobrien/sym_charactercount_textarea/">Field: Character Counter Textarea</a>
+			</td>
+			<td>This extension installs a field for counting characters in textareas.</td>
+			<td>1.1</td>
+			<td>2009-05-25</td>
+			<td>
+				<a href="http://eoghanobrien.com">Eoghan O'Brien</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/eoghanobrien/sym_charactercount_textinput/">Field: Character Counter Text Input</a>
+			</td>
+			<td>This extension installs a field for counting characters in text input.</td>
+			<td>1.1</td>
+			<td>2009-05-25</td>
+			<td>
+				<a href="http://eoghanobrien.com">Eoghan O'Brien</a>
 			</td>
 		</tr>
 		<tr>
@@ -1322,6 +1344,8 @@ A listing of all the Symphony CMS Extensions by name
 * [Calendar Overlay](http://github.com/rowan-lewis/calendaroverlay/) | git://github.com/rowan-lewis/calendaroverlay.git
 * [Can of Spam Filter](http://github.com/rowan-lewis/canofspam/) | git://github.com/rowan-lewis/canofspam.git
 * [Clean URL Parameters](http://github.com/rowan-lewis/cleanurlparams/) | git://github.com/rowan-lewis/cleanurlparams.git
+* [Character Counter Text Input](http://github.com/eoghanobrien/sym_charactercount_textinput/) | git://github.com/eoghanobrien/sym_charactercount_textinput.git
+* [Character Counter Textarea](http://github.com/eoghanobrien/sym_charactercount_textarea/) | git://github.com/eoghanobrien/sym_charactercount_textarea.git
 * [Collapse Section Fields](http://github.com/carsten/collapse_sectionfields/) | git://github.com/carsten/collapse_sectionfields.git
 * [Color Chooser Field](http://github.com/MrBlank/symphony_color_chooser/) | git://github.com/MrBlank/symphony_color_chooser.git
 * [Configuration Settings](http://github.com/bauhouse/configuration/) | git://github.com/bauhouse/configuration.git
@@ -1458,6 +1482,8 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/czheng/pagetemplates.git pagetemplates
 	git submodule add git://github.com/czheng/referencelink.git referencelink
 	git submodule add git://github.com/Demwunz/multiselect_to_checkboxes.git multiselect_to_checkboxes
+	git submodule add git://github.com/eoghanobrien/sym_charactercount_textarea.git charactercount_textarea
+	git submodule add git://github.com/eoghanobrien/sym_charactercount_textinput.git charactercounter_textinput
 	git submodule add git://github.com/knupska/static_section.git static_section
 	git submodule add git://github.com/lewiswharf/ab_split_test.git ab_split_test
 	git submodule add git://github.com/lewiswharf/mailchimp.git mailchimp
@@ -1608,6 +1634,10 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/rowan-lewis/calendaroverlay.git
 	[submodule "canofspam"]
 		url = git://github.com/rowan-lewis/canofspam.git
+	[submodule "charactercount_textarea"]
+		url = git://github.com/eoghanobrien/sym_charactercount_textarea.git
+	[submodule "charactercounter_textinput"]
+		url = git://github.com/eoghanobrien/sym_charactercount_textinput.git
 	[submodule "cleanurlparams"]
 		url = git://github.com/rowan-lewis/cleanurlparams.git
 	[submodule "collapse_sectionfields"]
