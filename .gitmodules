@@ -373,3 +373,6 @@
 [submodule "charactercount_textarea"]
 	path = charactercount_textarea
 	url = git://github.com/eoghanobrien/sym_charactercount_textarea.git
+[submodule "databasemanipulator"]
+	path = databasemanipulator
+	url = git://github.com/yourheropaul/databasemanipulator.git

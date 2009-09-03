@@ -223,6 +223,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/nickdunn/db_sync/">DatabaseManipulator</a>
+			</td>
+			<td>PHP-level, SQL-like access to the database</td>
+			<td>0.4</td>
+			<td>2009-01-21</td>
+			<td>
+				<a href="http://github.com/yourheropaul/">Your Hero Paul</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/nickdunn/db_sync/">Database Synchroniser</a>
 			</td>
 			<td>Logs structural database changes to allow syncing between builds.</td>
@@ -1353,6 +1364,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Cookie Monster](http://github.com/pointybeard/cookiemonster/) | git://github.com/pointybeard/cookiemonster.git
 * [Cron](http://github.com/pointybeard/cron/) | git://github.com/pointybeard/cron.git
 * [Curl Input Field](http://github.com/rowan-lewis/curlinputfield/) | git://github.com/rowan-lewis/curlinputfield.git
+* [DatabaseManipulator](http://github.com/yourheropaul/databasemanipulator/) | git://github.com/yourheropaul/databasemanipulator.git
 * [Database Synchroniser](http://github.com/nickdunn/db_sync/) | git://github.com/nickdunn/db_sync.git
 * [Data Source Cache](http://github.com/nickdunn/datasource_cache/) | git://github.com/nickdunn/datasource_cache.git
 * [Datestamp Helper](http://github.com/rainerborene/datestamp_helper/) | git://github.com/rainerborene/datestamp_helper.git
@@ -1583,6 +1595,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/symphony/profiledevkit.git profiledevkit
 	git submodule add git://github.com/tonyarnold/signedfileuploadfield.git signedfileuploadfield
 	git submodule add git://github.com/tonyarnold/typogrify.git typogrify
+	git submodule add git://github.com/yourheropaul/databasemanipulator.git databasemanipulator
 	git submodule add git://github.com/yourheropaul/eventex.git eventex
 
 ## Git Config
@@ -1654,6 +1667,8 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/pointybeard/cron.git
 	[submodule "curlinputfield"]
 		url = git://github.com/rowan-lewis/curlinputfield.git
+	[submodule "databasemanipulator"]
+		url = git://github.com/yourheropaul/databasemanipulator.git
 	[submodule "datasource_cache"]
 		url = git://github.com/nickdunn/datasource_cache.git
 	[submodule "datestamp_helper"]
