@@ -237,8 +237,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/nickdunn/db_sync/">Database Synchroniser</a>
 			</td>
 			<td>Logs structural database changes to allow syncing between builds.</td>
-			<td>0.4</td>
-			<td>2009-08-18</td>
+			<td>0.6</td>
+			<td>2009-09-06</td>
 			<td>
 				<a href="http://airlock.com">Nick Dunn, Richard Warrender</a>
 			</td>
@@ -743,8 +743,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/nickdunn/xml_selectbox/">Field: XML Select Box</a>
 			</td>
 			<td></td>
-			<td>0.1</td>
-			<td>2009-07-22</td>
+			<td>0.3.1</td>
+			<td>2009-09-07</td>
 			<td>
 				<a href="http://nick-dunn.co.uk">Nick Dunn</a>
 			</td>
