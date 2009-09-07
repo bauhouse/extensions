@@ -6,9 +6,14 @@ To keep your collection up-to-date, just update the submodules. (Make sure your 
 
 	git submodule update --init
 
+Or in the odd case that this doesn't work (for whatever reason, Git complains that you're using the command improperly), use these separate commands, which do the same thing:
+
+	git submodule init
+	git submodule update
+
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 26 August 2009, there are 125 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 7 September 2009, there are 125 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
