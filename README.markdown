@@ -6,9 +6,14 @@ To keep your collection up-to-date, just update the submodules. (Make sure your 
 
 	git submodule update --init
 
+Or in the odd case that this doesn't work (for whatever reason, Git complains that you're using the command improperly), use these separate commands, which do the same thing:
+
+	git submodule init
+	git submodule update
+
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 26 August 2009, there are 125 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 7 September 2009, there are 125 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -237,8 +242,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/nickdunn/db_sync/">Database Synchroniser</a>
 			</td>
 			<td>Logs structural database changes to allow syncing between builds.</td>
-			<td>0.4</td>
-			<td>2009-08-18</td>
+			<td>0.6</td>
+			<td>2009-09-06</td>
 			<td>
 				<a href="http://airlock.com">Nick Dunn, Richard Warrender</a>
 			</td>
@@ -743,8 +748,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/nickdunn/xml_selectbox/">Field: XML Select Box</a>
 			</td>
 			<td></td>
-			<td>0.1</td>
-			<td>2009-07-22</td>
+			<td>0.3.1</td>
+			<td>2009-09-07</td>
 			<td>
 				<a href="http://nick-dunn.co.uk">Nick Dunn</a>
 			</td>
