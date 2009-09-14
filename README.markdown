@@ -413,7 +413,7 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/eoghanobrien/sym_charactercount_textinput/">Field: Character Counter Text Input</a>
 			</td>
 			<td>This extension installs a field for counting characters in text input.</td>
-			<td>1.1</td>
+			<td>1.1.1</td>
 			<td>2009-05-25</td>
 			<td>
 				<a href="http://eoghanobrien.com">Eoghan O'Brien</a>
