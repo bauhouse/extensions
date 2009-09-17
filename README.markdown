@@ -13,7 +13,7 @@ Or in the odd case that this doesn't work (for whatever reason, Git complains th
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 7 September 2009, there are 125 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 17 September 2009, there are 126 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -954,6 +954,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/nilshoerrmann/mediathek/">Localisation Manager</a>
+			</td>
+			<td>A Symphony CMS Extension to manage back-end localisations.</td>
+			<td>1.0</td>
+			<td>2009-09-13</td>
+			<td>
+				<a href="http://www.nilshoerrmann.de">Nils Hoerrmann</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/rowan-lewis/logsdevkit/">Logs DevKit</a>
 			</td>
 			<td></td>
@@ -1408,6 +1419,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Just In Time (JIT) Image Manipulation](http://github.com/pointybeard/jit_image_manipulation/) | git://github.com/pointybeard/jit_image_manipulation.git
 * [Language Field](http://git://github.com/ahwayakchih/languagefield/) | git://github.com/ahwayakchih/languagefield.git
 * [Library (ConfigurationAccessor class)](http://github.com/bauhouse/library/) | git://github.com/bauhouse/library.git
+* [Localisation Manager](http://github.com/nilshoerrmann/localisationmanager/) | git://github.com/nilshoerrmann/localisationmanager.git
 * [Logs DevKit](http://github.com/rowan-lewis/logsdevkit/) | git://github.com/rowan-lewis/logsdevkit.git
 * [MailChimp](http://github.com/lewiswharf/mailchimp/) | git://github.com/lewiswharf/mailchimp.git
 * [Maintenance Mode](http://github.com/pointybeard/maintenance_mode/) | git://github.com/pointybeard/maintenance_mode.git
@@ -1533,6 +1545,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/nickdunn/xml_selectbox.git xml_selectbox
 	git submodule add git://github.com/nilshoerrmann/datetime.git datetime
 	git submodule add git://github.com/nilshoerrmann/german.git german
+	git submodule add git://github.com/nilshoerrmann/localisationmanager.git localisationmanager
 	git submodule add git://github.com/nilshoerrmann/mediathek.git mediathek
 	git submodule add git://github.com/phoque/admin_rainbow_headline.git admin_rainbow_headline
 	git submodule add git://github.com/phoque/EnableTabkey.git EnableTabkey
@@ -1752,6 +1765,8 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/ahwayakchih/languagefield.git
 	[submodule "library"]
 		url = git://github.com/bauhouse/library.git
+	[submodule "localisationmanager"]
+		url = git://github.com/nilshoerrmann/localisationmanager.git
 	[submodule "logsdevkit"]
 		url = git://github.com/rowan-lewis/logsdevkit.git
 	[submodule "mailchimp"]

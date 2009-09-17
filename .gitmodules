@@ -193,6 +193,9 @@
 [submodule "library"]
 	path = library
 	url = git://github.com/bauhouse/library.git
+[submodule "localisationmanager"]
+	path = localisationmanager
+	url = git://github.com/nilshoerrmann/localisationmanager.git
 [submodule "logsdevkit"]
 	path = logsdevkit
 	url = git://github.com/rowan-lewis/logsdevkit.git
