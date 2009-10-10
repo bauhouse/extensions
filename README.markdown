@@ -13,7 +13,7 @@ Or in the odd case that this doesn't work (for whatever reason, Git complains th
 
 That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
 
-**Update:** As of 17 September 2009, there are 126 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 10 October 2009, there are 134 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
@@ -261,6 +261,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/nickdunn/parampool_to_xml/">Data Source: Param Pool to XML</a>
+			</td>
+			<td>Adds parameter pool ($param) into your Page XML</td>
+			<td>1.0</td>
+			<td>2009-09-23</td>
+			<td>
+				<a href="http://airlock.com">Nick Dunn</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/pointybeard/serverheaders/">Data Source: Server Headers</a>
 			</td>
 			<td></td>
@@ -316,6 +327,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/nickdunn/duplicate_entry/">Duplicate Entry</a>
+			</td>
+			<td>Duplicate an existing entry using a "Save as New" button</td>
+			<td>1.0</td>
+			<td>2009-09-23</td>
+			<td>
+				<a href="http://nick-dunn.co.uk">Nick Dunn</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/makenosound/dynamic_event_redirect/">Dynamic Event Redirect</a>
 			</td>
 			<td></td>
@@ -367,6 +389,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2009-07-10</td>
 			<td>
 				<a href="http://www.domain7.com/">Stephen Bau</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/jeremyboles/symphony-address_field/">Field: Address</a>
+			</td>
+			<td>A field for storing and geocoding address</td>
+			<td>0.7 Beta</td>
+			<td>2009-10-07</td>
+			<td>
+				<a href="http://jeremyboles.com/">Jeremy Boles</a>
 			</td>
 		</tr>
 		<tr>
@@ -451,11 +484,20 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/nilshoerrmann/datetime/">Field: Date and Time</a>
 			</td>
 			<td>A date and time field for Symphony CMS allowing multiple dates and date ranges</td>
-			<td>1.0</td>
-			<td>2009-08-21</td>
+			<td>1.2</td>
+			<td>2009-08-26</td>
 			<td>
 				<a href="http://www.nilshoerrmann.de">Nils Hoerrmann</a>
 			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/czheng/enhancedtaglist/">Field: Date Modified</a>
+			</td>
+			<td></td>
+			<td>1.0</td>
+			<td>2009-10-05</td>
+			<td>Craig Zheng</td>
 		</tr>
 		<tr>
 			<td>
@@ -466,6 +508,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2008-12-05</td>
 			<td>
 				<a href="http://pixelcarnage.com/">Rowan Lewis</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/pointybeard/email_field/">Field: Email</a>
+			</td>
+			<td>Symphony Extension that only accepts email addresses and provides a hash value in the XML</td>
+			<td>1.0</td>
+			<td>2009-09-03</td>
+			<td>
+				<a href="http://www.pointybeard.com">Alistair Kearney</a>
 			</td>
 		</tr>
 		<tr>
@@ -482,8 +535,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/rowan-lewis/expressionfield/">Field: Expression</a>
 			</td>
 			<td>Define simple expressions and test values against them in a data source.</td>
-			<td>1.0.1</td>
-			<td>2009-07-03</td>
+			<td>1.0.3</td>
+			<td>2009-10-08</td>
 			<td>
 				<a href="http://pixelcarnage.com/">Rowan Lewis</a>
 			</td>
@@ -519,6 +572,17 @@ That should make things easier. If you create or discover any more, just fork, a
 			<td>2008-04-13</td>
 			<td>
 				<a href="http://www.symphony21.com">Symphony Team</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="http://github.com/klaftertief/imagecropper/">Field: Image Cropper</a>
+			</td>
+			<td>Adds image cropping functionality to upload fields.</td>
+			<td>0.1</td>
+			<td>2009-08-09</td>
+			<td>
+				<a href="http://klaftertief.de">Jonas Coch</a>
 			</td>
 		</tr>
 		<tr>
@@ -559,8 +623,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/nilshoerrmann/mediathek/">Field: Mediathek</a>
 			</td>
 			<td></td>
-			<td>1.1.3</td>
-			<td>2009-03-13</td>
+			<td>2.0</td>
+			<td>2009-08-11</td>
 			<td>
 				<a href="http://www.nilshoerrmann.de">Nils Hoerrmann</a>
 			</td>
@@ -1067,8 +1131,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/nickdunn/order_entries/">Order Entries</a>
 			</td>
 			<td></td>
-			<td>1.6</td>
-			<td>2009-06-28</td>
+			<td>1.8</td>
+			<td>2009-09-28</td>
 			<td>
 				<a href="http://airlock.com">Nick Dunn</a>
 			</td>
@@ -1109,8 +1173,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/makenosound/paypal_payments/">PayPal Payments</a>
 			</td>
 			<td>Allows you to process and track Website Payments Standard transactions from PayPal.</td>
-			<td>1.0</td>
-			<td>2009-07-10</td>
+			<td>1.0.1</td>
+			<td>2009-09-17</td>
 			<td>
 				<a href="http://makenosound.com/">Max Wheeler</a>
 			</td>
@@ -1131,8 +1195,8 @@ That should make things easier. If you create or discover any more, just fork, a
 				<a href="http://github.com/carsten/populate_entry/">Populate Entry</a>
 			</td>
 			<td>Choose an existing entry and with its existing values create a new entry.</td>
-			<td>1.0.0</td>
-			<td>2009-07-23</td>
+			<td>1.0.2</td>
+			<td>2009-01-21</td>
 			<td>
 				<a href="http://www.vrieswerk.nl">Carsten de Vries</a>
 			</td>
@@ -1317,6 +1381,17 @@ That should make things easier. If you create or discover any more, just fork, a
 		</tr>
 		<tr>
 			<td>
+				<a href="http://github.com/makenosound/url_segments/">URL Segments</a>
+			</td>
+			<td>Outputs all URL segments as params.</td>
+			<td>1.0.1</td>
+			<td>2009-09-16</td>
+			<td>
+				<a href="http://makenosound.com/">Max Wheeler</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				<a href="http://github.com/bauhouse/version/">Version</a>
 			</td>
 			<td>Symphony System Preference for viewing the currently installed version of Symphony</td>
@@ -1358,6 +1433,7 @@ A listing of all the Symphony CMS Extensions by name
 * [A/B Split Test](http://github.com/lewiswharf/ab_split_test/) | git://github.com/lewiswharf/ab_split_test.git
 * [Activity Log](http://github.com/rowan-lewis/activitylog/) | git://github.com/rowan-lewis/activitylog.git
 * [Additional Page Types](http://github.com/makenosound/additional_page_types/) | git://github.com/makenosound/additional_page_types.git
+* [Address Field](http://github.com/jeremyboles/symphony-address_field/) | git://github.com/jeremyboles/symphony-address_field.git
 * [Admin CSS Override](http://github.com/michael-e/admin_css_override/) | git://github.com/michael-e/admin_css_override.git
 * [Admin Rainbow Headline](http://github.com/phoque/admin_rainbow_headline/) | git://github.com/phoque/admin_rainbow_headline.git
 * [Advanced Symphony Database Connector (ASDC)](http://github.com/pointybeard/asdc/) | git://github.com/pointybeard/asdc.git
@@ -1384,11 +1460,14 @@ A listing of all the Symphony CMS Extensions by name
 * [Database Synchroniser](http://github.com/nickdunn/db_sync/) | git://github.com/nickdunn/db_sync.git
 * [Data Source Cache](http://github.com/nickdunn/datasource_cache/) | git://github.com/nickdunn/datasource_cache.git
 * [Datestamp Helper](http://github.com/rainerborene/datestamp_helper/) | git://github.com/rainerborene/datestamp_helper.git
+* [Date Modified Field](http://github.com/czheng/datemodified/) | git://github.com/czheng/datemodified.git
 * [Date and Time Field](http://github.com/nilshoerrmann/datetime/) | git://github.com/nilshoerrmann/datetime.git
 * [Date Tag List Field](http://github.com/rowan-lewis/datetaglistfield/) | git://github.com/rowan-lewis/datetaglistfield.git
 * [Debug DevKit](http://github.com/symphony/debugdevkit/) | git://github.com/symphony/debugdevkit.git
 * [Downloadable Page Type](http://github.com/ashooner/Downloadable-Page-Type/) | git://github.com/ashooner/Downloadable-Page-Type.git
+* [Duplicate Entry](http://github.com/nickdunn/duplicate_entry/) | git://github.com/nickdunn/duplicate_entry.git
 * [Dynamic Event Redirect](http://github.com/makenosound/dynamic_event_redirect/) | git://github.com/makenosound/dynamic_event_redirect.git
+* [Email Field](http://github.com/pointybeard/email_field/) | git://github.com/pointybeard/email_field.git
 * [Email Template Filter](http://github.com/rowan-lewis/emailtemplatefilter/) | git://github.com/rowan-lewis/emailtemplatefilter.git
 * [Enable Tabkey](http://github.com/phoque/Symphony-Enable-Tabkey/) | git://github.com/phoque/Symphony-Enable-Tabkey.git
 * [Enhanced Tag List](http://github.com/czheng/enhancedtaglist/) | git://github.com/czheng/enhancedtaglist.git
@@ -1410,6 +1489,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Gravatar](http://github.com/nickdunn/gravatar/) | git://github.com/nickdunn/gravatar.git
 * [Hash Field](http://github.com/pointybeard/hashfield/) | git://github.com/pointybeard/hashfield.git
 * [HTML Formatter](http://github.com/rowan-lewis/htmlformatter/) | git://github.com/rowan-lewis/htmlformatter.git
+* [Image Cropper Field](http://github.com/klaftertief/imagecropper/) | git://github.com/klaftertief/imagecropper.git
 * [Import Manager](http://github.com/rowan-lewis/importmanager/) | git://github.com/rowan-lewis/importmanager.git
 * [Improved Page Resolve](http://github.com/ahwayakchih/improvedpageresolve/) | git://github.com/ahwayakchih/improvedpageresolve.git
 * [Increment Number Field](http://github.com/nickdunn/incrementnumberfield/) | git://github.com/nickdunn/incrementnumberfield.git
@@ -1441,6 +1521,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Page Templates](http://github.com/czheng/pagetemplates/) | git://github.com/czheng/pagetemplates.git
 * [Pages Editor Minimal](http://github.com/pointybeard/pages_editor_minimal/) | git://github.com/pointybeard/pages_editor_minimal.git
 * [Page Select Box Field](http://github.com/pointybeard/pagesfield/) | git://github.com/pointybeard/pagesfield.git
+* [Param Pool to XML](http://github.com/nickdunn/parampool_to_xml/) | git://github.com/nickdunn/parampool_to_xml.git
 * [PayPal Payments](http://github.com/makenosound/paypal_payments/) | git://github.com/makenosound/paypal_payments.git
 * [Pessimistic Database Locking](http://github.com/scottkf/pessimistic-db-locking/) | git://github.com/scottkf/pessimistic-db-locking.git
 * [Ping-o-matic](http://github.com/nickdunn/pingomatic/) | git://github.com/nickdunn/pingomatic.git
@@ -1476,6 +1557,7 @@ A listing of all the Symphony CMS Extensions by name
 * [Unique File Upload Field](http://github.com/michael-e/uniqueuploadfield/) | git://github.com/michael-e/uniqueuploadfield.git
 * [Unique Text Input Field](http://github.com/pointybeard/uniqueinputfield/) | git://github.com/pointybeard/uniqueinputfield.git
 * [Uploadify](http://github.com/nickdunn/uploadify/) | git://github.com/nickdunn/uploadify.git
+* [URL Segments](http://github.com/makenosound/url_segments/) | git://github.com/makenosound/url_segments.git
 * [Version](http://github.com/bauhouse/version/) | git://github.com/bauhouse/version.git
 * [Vimeo Videos](http://github.com/nickdunn/vimeo_videos/) | git://github.com/nickdunn/vimeo_videos.git
 * [widgEditor Text Formatter](http://github.com/makenosound/widgeditor/) | git://github.com/makenosound/widgeditor.git
@@ -1507,12 +1589,15 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/carsten/collapse_sectionfields.git collapse_sectionfields
 	git submodule add git://github.com/carsten/globalparamloader.git globalparamloader
 	git submodule add git://github.com/carsten/populate_entry.git populate_entry
+	git submodule add git://github.com/czheng/datemodified.git datemodified
 	git submodule add git://github.com/czheng/enhancedtaglist.git enhancedtaglist
 	git submodule add git://github.com/czheng/pagetemplates.git pagetemplates
 	git submodule add git://github.com/czheng/referencelink.git referencelink
 	git submodule add git://github.com/Demwunz/multiselect_to_checkboxes.git multiselect_to_checkboxes
 	git submodule add git://github.com/eoghanobrien/sym_charactercount_textarea.git charactercount_textarea
 	git submodule add git://github.com/eoghanobrien/sym_charactercount_textinput.git charactercounter_textinput
+	git submodule add git://github.com/jeremyboles/symphony-address_field.git address_field
+	git submodule add git://github.com/klaftertief/imagecropper.git imagecropper
 	git submodule add git://github.com/knupska/static_section.git static_section
 	git submodule add git://github.com/lewiswharf/ab_split_test.git ab_split_test
 	git submodule add git://github.com/lewiswharf/mailchimp.git mailchimp
@@ -1525,6 +1610,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/makenosound/paypal_payments.git paypal_payments
 	git submodule add git://github.com/makenosound/publishnotesfield.git publishnotesfield
 	git submodule add git://github.com/makenosound/shrimp.git shrimp
+	git submodule add git://github.com/makenosound/url_segments.git url_segments
 	git submodule add git://github.com/makenosound/widgeditor.git widgeditor
 	git submodule add git://github.com/michael-e/admin_css_override.git admin_css_override
 	git submodule add git://github.com/michael-e/textformatter_labels.git textformatter_labels
@@ -1532,11 +1618,13 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/MrBlank/symphony_color_chooser.git color_chooser_field
 	git submodule add git://github.com/nickdunn/datasource_cache.git datasource_cache
 	git submodule add git://github.com/nickdunn/db_sync.git db_sync
+	git submodule add git://github.com/nickdunn/duplicate_entry.git duplicate_entry
 	git submodule add git://github.com/nickdunn/entity_diagram.git entity_diagram
 	git submodule add git://github.com/nickdunn/firebug_profiler.git firebug_profiler
 	git submodule add git://github.com/nickdunn/gravatar.git gravatar
 	git submodule add git://github.com/nickdunn/incrementnumberfield.git incrementnumberfield
 	git submodule add git://github.com/nickdunn/order_entries.git order_entries
+	git submodule add git://github.com/nickdunn/parampool_to_xml.git parampool_to_xml
 	git submodule add git://github.com/nickdunn/pingomatic.git pingomatic
 	git submodule add git://github.com/nickdunn/publishfiltering.git publishfiltering
 	git submodule add git://github.com/nickdunn/section_schemas.git section_schemas
@@ -1558,6 +1646,7 @@ Following is the list of Git submodule commands used to build this library:
 	git submodule add git://github.com/pointybeard/content_type_mappings.git content_type_mappings
 	git submodule add git://github.com/pointybeard/cookiemonster.git cookiemonster
 	git submodule add git://github.com/pointybeard/cron.git cron
+	git submodule add git://github.com/pointybeard/email_field.git email_field
 	git submodule add git://github.com/pointybeard/export_ensemble.git export_ensemble
 	git submodule add git://github.com/pointybeard/extension--time-field.git extension--time-field
 	git submodule add git://github.com/pointybeard/filemanager.git filemanager
@@ -1641,6 +1730,8 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/rowan-lewis/activitylog.git
 	[submodule "additional_page_types"]
 		url = git://github.com/makenosound/additional_page_types.git
+	[submodule "address_field"]
+		url = git://github.com/jeremyboles/symphony-address_field.git
 	[submodule "admin_css_override"]
 		url = git://github.com/michael-e/admin_css_override.git
 	[submodule "admin_rainbow_headline"]
@@ -1689,6 +1780,8 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/yourheropaul/databasemanipulator.git
 	[submodule "datasource_cache"]
 		url = git://github.com/nickdunn/datasource_cache.git
+	[submodule "datemodified"]
+		url = git://github.com/czheng/datemodified.git
 	[submodule "datestamp_helper"]
 		url = git://github.com/rainerborene/datestamp_helper.git
 	[submodule "datetaglistfield"]
@@ -1701,8 +1794,12 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/symphony/debugdevkit.git
 	[submodule "Downloadable-Page-Type"]
 		url = git://github.com/ashooner/Downloadable-Page-Type.git
+	[submodule "duplicate_entry"]
+		url = git://github.com/nickdunn/duplicate_entry.git
 	[submodule "dynamic_event_redirect"]
 		url = git://github.com/makenosound/dynamic_event_redirect.git
+	[submodule "email_field"]
+		url = git://github.com/pointybeard/email_field.git
 	[submodule "emailtemplatefilter"]
 		url = git://github.com/rowan-lewis/emailtemplatefilter.git
 	[submodule "EnableTabkey"]
@@ -1747,6 +1844,8 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/pointybeard/hashfield.git
 	[submodule "htmlformatter"]
 		url = git://github.com/rowan-lewis/htmlformatter.git
+	[submodule "imagecropper"]
+		url = git://github.com/klaftertief/imagecropper.git
 	[submodule "importmanager"]
 		url = git://github.com/rowan-lewis/importmanager.git
 	[submodule "improvedpageresolve"]
@@ -1809,6 +1908,8 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/pointybeard/pagesfield.git
 	[submodule "pagetemplates"]
 		url = git://github.com/czheng/pagetemplates.git
+	[submodule "parampool_to_xml"]
+		url = git://github.com/nickdunn/parampool_to_xml.git
 	[submodule "paypal_payments"]
 		url = git://github.com/makenosound/paypal_payments.git
 	[submodule "pessimistic-db-locking"]
@@ -1877,6 +1978,8 @@ or you'll run into errors when running `git submodule update --init`:
 		url = git://github.com/michael-e/uniqueuploadfield.git
 	[submodule "uploadify"]
 		url = git://github.com/nickdunn/uploadify.git
+	[submodule "url_segments"]
+		url = git://github.com/makenosound/url_segments.git
 	[submodule "version"]
 		url = git://github.com/bauhouse/version.git
 	[submodule "vimeo_videos"]

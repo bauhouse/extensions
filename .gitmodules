@@ -100,6 +100,9 @@
 [submodule "dynamic_event_redirect"]
 	path = dynamic_event_redirect
 	url = git://github.com/makenosound/dynamic_event_redirect.git
+[submodule "email_field"]
+	path = email_field
+	url = git://github.com/pointybeard/email_field.git
 [submodule "emailtemplatefilter"]
 	path = emailtemplatefilter
 	url = git://github.com/rowan-lewis/emailtemplatefilter.git
@@ -379,3 +382,21 @@
 [submodule "ysboss"]
 	path = ysboss
 	url = git://github.com/ahwayakchih/ysboss.git
+[submodule "duplicate_entry"]
+	path = duplicate_entry
+	url = git://github.com/nickdunn/duplicate_entry.git
+[submodule "parampool_to_xml"]
+	path = parampool_to_xml
+	url = git://github.com/nickdunn/parampool_to_xml.git
+[submodule "url_segments"]
+	path = url_segments
+	url = git://github.com/makenosound/url_segments.git
+[submodule "datemodified"]
+	path = datemodified
+	url = git://github.com/czheng/datemodified.git
+[submodule "imagecropper"]
+	path = imagecropper
+	url = git://github.com/klaftertief/imagecropper.git
+[submodule "address_field"]
+	path = address_field
+	url = git://github.com/jeremyboles/symphony-address_field.git
